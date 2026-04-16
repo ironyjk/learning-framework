@@ -1,6 +1,8 @@
 ---
 name: learn
 version: "0.2.0"
+last_verified: "2026-04-17"
+valid_until: "2026-10-17"
 description: "성인 학습·지식 관리 메타 라우터 — 인지과학·교육심리학 기반 12개 프레임워크(Zettelkasten·Spaced Repetition·Active Recall·Deliberate Practice·Deep Work 등)에서 상황에 맞는 것을 자동 선택. 시험 준비·자격증·새 분야 습득·지식 축적·전문성 증진·집중 재훈련을 커버. 한국 학습자 맥락(수능·공무원·자격증·회독·오답노트) 내장."
 tools: ["Read", "Write", "Edit", "Skill"]
 dependencies:
