@@ -1,178 +1,178 @@
 ---
 name: pomodoro-and-focus
 version: "0.1.0"
-description: "Pomodoro Technique (Cirillo 25/5) + 집중 변형(50/10, 90분 ultradian). Sophie Leroy의 attention residue. 짧은 집중 단위로 주의 근육 훈련 + 타임박싱 도구. Deep Work의 구현 레이어."
+description: "Pomodoro Technique (Cirillo 25/5) + focus variants (50/10, 90-minute ultradian). Sophie Leroy's attention residue. Train attention muscle through short focus units + timeboxing tool. The implementation layer of Deep Work."
 ---
 
 # Pomodoro & Focus Techniques
 
-## 레이어 위치
+## Layer Position
 
-**L2 (환경·시간)** — deep-work와 같은 층. Deep work의 *단위 구현*. 학습·작업 자체가 아니라 *컨테이너*. 5분도 못 앉아있는 상태에서 학습 기법을 고민해도 소용없음 — L2 훈련부터.
+**L2 (Environment·Time)** — Same layer as deep-work. The *unit implementation* of Deep Work. Not the learning or work itself, but the *container*. If you can't sit still for even 5 minutes, contemplating learning techniques is useless — start with L2 training.
 
-## 한 줄 요약
+## One-Line Summary
 
-**짧은 집중 단위(25~90분)와 의식적 휴식(5~15분)을 번갈아 하라.** 집중력 훈련 + 시간 가시화 + 완벽주의 제어 + 전환 비용 관리의 도구.
+**Alternate short focus units (25–90 min) with intentional breaks (5–15 min).** A tool for focus training + time visualization + perfectionism control + transition cost management.
 
-## 이론·기원
+## Theory·Origin
 
-- **Francesco Cirillo (1987)** — 대학생 시절 토마토 모양 주방 타이머(pomodoro)로 25분 집중 실험. 2006년 e-book으로 체계화(*The Pomodoro Technique*), 이후 2018년 단행본.
-- Cirillo 자신은 "법칙"보다 *도구*로 제안. 가장 흔한 25/5는 임의 시작점이지 신성한 수가 아님.
-- **Ultradian rhythm** (Kleitman, 1960s) — 약 90~120분 주기로 각성-회복 사이클. 여기서 90분 블록 아이디어 파생.
-- **Sophie Leroy (2009)** "Attention residue" — 전환 시 잔여 주의. Pomodoro의 "완결된 세션" 아이디어와 연결.
-- **Time boxing** (Agile/Scrum 등) — 고정 시간 내 할 수 있는 만큼만. 결과가 아니라 시간으로 경계.
+- **Francesco Cirillo (1987)** — As a university student, he experimented with 25-minute focus sessions using a tomato-shaped kitchen timer (pomodoro). Systematized as an e-book in 2006 (*The Pomodoro Technique*), later published as a book in 2018.
+- Cirillo himself proposed it as a *tool* rather than a "law." The most common 25/5 is an arbitrary starting point, not a sacred number.
+- **Ultradian rhythm** (Kleitman, 1960s) — Arousal-recovery cycles of approximately 90–120 minutes. The 90-minute block idea derives from here.
+- **Sophie Leroy (2009)** "Attention residue" — Residual attention during transitions. Connects to the Pomodoro idea of the "completed session."
+- **Time boxing** (Agile/Scrum, etc.) — Do only what you can within a fixed time. Bounded by time, not outcome.
 
-## 핵심 프로토콜 (원전 Cirillo)
+## Core Protocol (Original Cirillo)
 
-### 기본 싸이클
-1. 할 일 하나 선택
-2. 타이머 25분
-3. 방해 없이 작업 (외부 방해·내부 방해 모두 기록만 하고 무시)
-4. 타이머 종료 → 5분 휴식 (물·스트레칭·시선 쉬게)
-5. 이것을 1 pomodoro로 셈
-6. 4 pomodoro마다 긴 휴식 15~30분
+### Basic Cycle
+1. Choose one task
+2. Timer for 25 minutes
+3. Work without interruption (record but ignore all external·internal distractions)
+4. Timer ends → 5-minute break (water·stretching·rest eyes)
+5. Count this as 1 pomodoro
+6. Every 4 pomodoros, take a long break of 15–30 minutes
 
-### 기록
-- 매 pomodoro 완료 시 체크 표시.
-- 방해(내부: 다른 생각·갈증 / 외부: 알림·연락)를 tally로 기록.
-- 하루 말미 리뷰 — 몇 pomodoro, 방해 패턴.
+### Recording
+- Check mark upon completing each pomodoro.
+- Record distractions (internal: other thoughts·thirst / external: notifications·contacts) as tallies.
+- Review at day's end — how many pomodoros, distraction patterns.
 
-### 원칙
-- **The pomodoro is indivisible** — 25분을 중도에 쪼개지 않음. 중단되면 그 pomodoro는 무효.
-- **Estimate in pomodoros** — 할 일 추정을 pomodoro 단위로. "이 일은 3 pomodoro" — 시간 감각 훈련.
-- **Protect the pomodoro** — 방해 요청이 오면 "Inform, Negotiate, Call Back, Schedule" — 지금 막고 나중에.
+### Principles
+- **The pomodoro is indivisible** — Don't split the 25 minutes midway. If interrupted, that pomodoro is void.
+- **Estimate in pomodoros** — Estimate tasks in pomodoro units. "This task is 3 pomodoros" — time sense training.
+- **Protect the pomodoro** — When interruption requests come, "Inform, Negotiate, Call Back, Schedule" — block now and handle later.
 
-## 주요 변형
+## Major Variants
 
-### 50/10 (긴 pomodoro)
-- 25분이 짧다고 느끼는 사람용. 50분 집중 + 10분 휴식.
-- 코드 디버깅·글쓰기처럼 warmup 긴 작업에 맞음.
+### 50/10 (Long Pomodoro)
+- For those who feel 25 minutes is too short. 50 minutes of focus + 10-minute break.
+- Suitable for tasks with long warmup, like code debugging·writing.
 
-### 90분 ultradian block
-- 인간 각성 사이클에 맞춤. 90분 집중 + 20~30분 휴식.
-- 대학 교수·연구자들이 자주 사용.
-- 3 블록 이상은 하루 한계.
+### 90-minute Ultradian Block
+- Aligned with human arousal cycles. 90 minutes of focus + 20–30 minute break.
+- Frequently used by university professors·researchers.
+- More than 3 blocks is the daily limit.
 
 ### 52/17
-- DeskTime 연구(2014)에서 생산성 상위 10%의 평균 패턴. 다만 엄밀한 실증 아님.
+- Average pattern of the top 10% most productive, per DeskTime research (2014). However, not rigorously empirical.
 
-### Timeboxing (Pomodoro 외)
-- 할 일 전체를 캘린더에 시간 블록으로 배치. Pomodoro는 그 안의 세션 단위.
+### Timeboxing (Beyond Pomodoro)
+- Arrange entire tasks as time blocks on the calendar. Pomodoro is the session unit within that.
 
-**선택 기준**:
-- 집중이 극히 어려움 → 15분 pomodoro로 축소 시작
-- 몰입이 가능한 편 → 50~90분
-- 유연하게 여러 작업 → 25분 고수
+**Selection criteria**:
+- Focus extremely difficult → Start with reduced 15-minute pomodoros
+- Capable of immersion → 50–90 minutes
+- Flexible across multiple tasks → Stick with 25 minutes
 
-## 왜 작동하나
+## Why It Works
 
-### 1. 완벽주의 제어
-- "끝낼 때까지"가 아니라 "25분". 시작 장벽 ↓.
-- "오늘 이 챕터 끝내겠다" → 불안·회피. "오늘 4 pomodoro" → 행동 가능.
+### 1. Perfectionism Control
+- Not "until finished" but "25 minutes." Starting barrier ↓.
+- "I'll finish this chapter today" → anxiety·avoidance. "4 pomodoros today" → actionable.
 
-### 2. 주의 근육 훈련
-- 25분 집중을 *일상 리듬으로* 만들면 집중 능력 자체가 성장.
-- Deep Work (Newport)의 전제 조건. 5분도 못 앉아있는 사람이 4시간 deep block 불가능.
+### 2. Attention Muscle Training
+- Making 25-minute focus a *daily rhythm* grows focus capacity itself.
+- A prerequisite for Deep Work (Newport). Someone who can't sit for 5 minutes cannot do a 4-hour deep block.
 
-### 3. 방해 외재화
-- 내부 방해(생각 튐)를 종이에 적으면 *돌아올 수 있다는 약속*이 됨. 지금은 무시.
-- 외부 방해는 "나중에 5분"으로 밀어냄.
+### 3. Externalizing Distractions
+- Writing internal distractions (wandering thoughts) on paper becomes a *promise that you can return*. Ignore for now.
+- External distractions are pushed to "5 minutes later."
 
-### 4. Attention residue 관리
-- 매 휴식이 "완결점". 잔여 주의를 정리하고 다음 블록 시작.
-- 다만 *다른 인지 작업*으로 휴식하면 잔여 쌓임. 진짜 휴식 필요.
+### 4. Managing Attention Residue
+- Every break is a "closure point." Clear residual attention and start the next block.
+- However, if you rest with *other cognitive tasks*, residue accumulates. Real rest required.
 
-### 5. 가시화·추정 능력
-- 자기 속도 데이터 축적. "이 유형 작업은 4 pomo 평균" — 계획 정확도 ↑.
+### 5. Visualization·Estimation Ability
+- Accumulate personal pace data. "This type of task averages 4 pomos" — planning accuracy ↑.
 
-## 언제 쓰나
+## When to Use
 
-- 집중이 안 되는 상태의 기본 훈련
-- 미루기·회피가 많은 작업
-- 시간 추정이 약해 일정이 계속 밀릴 때
-- 공부 세션 리듬이 필요한 학생
-- ADHD 성향 (보조적, 치료 아님)
-- 재택·원격 근무 루틴 구축
+- Basic training for unfocused states
+- Tasks with lots of procrastination·avoidance
+- When time estimates are weak and schedules keep slipping
+- Students needing study session rhythm
+- ADHD tendencies (supplementary, not treatment)
+- Building remote·home work routines
 
-## 실전 팁
+## Practical Tips
 
-### 시작 프로토콜
-1. 첫 주: 1일 2 pomodoro만 목표. 성공 경험이 중요.
-2. 둘째 주: 4 pomodoro
-3. 셋째 주부터: 점진 증가, 하루 8~12 한계 (16 이상은 품질 저하).
+### Starting Protocol
+1. First week: Aim for only 2 pomodoros per day. Success experience matters.
+2. Second week: 4 pomodoros
+3. From third week: Gradual increase, daily limit of 8–12 (beyond 16 leads to quality decline).
 
-### 방해 최소화
-- 폰 다른 방·서랍. 단순 알림 끔 부족(Ward et al. 2017, 존재 자체가 주의 드래그).
-- 웹 브라우저 차단 (Cold Turkey·Freedom 계열).
-- 가족·동료에게 "다음 5분 휴식 때 응답" 공지.
+### Minimizing Distractions
+- Phone in another room·drawer. Simply muting notifications is insufficient (Ward et al. 2017, mere presence itself drags attention).
+- Web browser blocking (Cold Turkey·Freedom family).
+- Notify family·colleagues: "Respond during next 5-minute break."
 
-### 휴식의 질
-- 같은 화면으로 유튜브 보기 = 휴식 아님. 눈·뇌 같은 자원 사용.
-- 일어서기·스트레칭·물 마시기·창밖 보기·짧은 산책.
-- 스마트폰 스크롤 지양.
+### Quality of Breaks
+- Watching YouTube on the same screen = not a break. Eyes·brain use the same resources.
+- Stand up·stretch·drink water·look out window·short walk.
+- Avoid smartphone scrolling.
 
-### 기록 복기
-- 주 1회: 몇 pomo 했는가 / 언제 집중 잘 됐나 / 어떤 방해가 반복되나.
-- 패턴을 찾아 환경 개선.
+### Reviewing Records
+- Once a week: How many pomos done / when focus went well / what distractions repeat.
+- Find patterns and improve environment.
 
-### 혼자 vs 공동
-- Focusmate·Pomofocus 같은 동료 세션도 효과. 사회적 책임감이 추가 압력.
+### Solo vs. Shared
+- Peer sessions like Focusmate·Pomofocus are also effective. Social accountability adds pressure.
 
-## 한국 맥락 예시
+## Korean Context Examples
 
-**공인중개사 시험 준비 (직장인)**:
-- 퇴근 후 19:30~21:30 학습
-- 25/5 × 4세트 = 100분 집중 + 20분 휴식 포함 2시간
-- 세트 사이 15분 긴 휴식
-- 약 6개월 지속으로 누적 ~150시간 deep study
+**Certified real estate agent exam prep (working professional)**:
+- Study 19:30–21:30 after work
+- 25/5 × 4 sets = 100 min focus + 20 min break totaling 2 hours
+- 15-minute long break between sets
+- About 6 months of consistency yields cumulative ~150 hours of deep study
 
-**개발자 신기능 구현**:
-- 오전 50/10 × 3 세트 = 150분 집중 블록
-- 각 세트 목표: "이 함수 구현", "테스트 작성", "PR 설명"
-- 세트 간 휴식에 Slack·이메일 일괄 처리
+**Developer implementing new feature**:
+- Morning 50/10 × 3 sets = 150 minutes of focus blocks
+- Goal per set: "Implement this function," "Write tests," "Write PR description"
+- Batch process Slack·email during breaks between sets
 
-**ADHD 성향 학생**:
-- 25분이 여전히 길다 → 15/5로 축소. 가능해지면 25분.
-- 매 완료에 작은 보상 (스티커·체크 표시).
-- 중요: 약물·치료와 병행. Pomodoro 단독은 보조.
+**ADHD-tendency student**:
+- 25 minutes still too long → reduce to 15/5. Move to 25 minutes when feasible.
+- Small reward for each completion (stickers·check marks).
+- Important: Combine with medication·treatment. Pomodoro alone is supplementary.
 
-## 안티패턴
+## Anti-patterns
 
-- **Pomodoro를 의식처럼** — 25분이 신성한 수 아님. 도구지 목표가 아님.
-- **휴식에 같은 인지 자원** — 유튜브·SNS. 실제 회복 안 됨.
-- **방해에 즉시 반응** — "2초만" 응답이 pomodoro 무효화.
-- **세트 수 자랑** — "오늘 16 pomo"는 집중 품질 보장 아님. 과로 위험.
-- **팀 작업에 강제** — 다른 사람의 집중 리듬을 무너뜨림. 개인 도구로 유지.
-- **수치 집착** — 시간 추적이 자기 감시·불안으로 변질.
+- **Treating Pomodoro as ritual** — 25 minutes is not a sacred number. It's a tool, not a goal.
+- **Breaks using same cognitive resources** — YouTube·SNS. No actual recovery.
+- **Responding immediately to distractions** — A "just 2 seconds" response voids the pomodoro.
+- **Bragging about set counts** — "16 pomos today" doesn't guarantee focus quality. Risk of overwork.
+- **Forcing on teams** — Disrupts others' focus rhythms. Maintain as a personal tool.
+- **Metric obsession** — Time tracking devolving into self-surveillance·anxiety.
 
-## 한계
+## Limitations
 
-1. **깊은 몰입(flow) 방해** — 타이머 울림이 몰입을 끊을 수 있음. 몰입 도달 시 연장 허용.
-2. **창작·설계 작업 부분 부적합** — warmup 긴 작업은 25분이 짧음. 50~90분 변형.
-3. **회의·협업 시간엔 무의미** — 개인 작업용 도구.
-4. **실증 약함** — Cirillo의 25/5 수치에 대한 엄밀한 비교 연구는 부족. 원리(간격·휴식)는 일반적 근거 있음.
-5. **의지 의존** — 타이머가 감시자 역할을 못 할 때 무력. 환경 설계 병행 필요.
-6. **ADHD 단독 치료 아님** — 보조 도구. 전문가 진단·치료와 함께.
+1. **Interrupts deep flow** — Timer ringing can break flow. Allow extension when flow is reached.
+2. **Partially unsuitable for creative·design work** — 25 minutes is short for tasks with long warmup. Use 50–90 minute variants.
+3. **Meaningless during meetings·collaboration time** — Tool for individual work.
+4. **Weak empirical basis** — Rigorous comparative studies on Cirillo's 25/5 numbers are lacking. The principles (intervals·breaks) have general grounding.
+5. **Dependent on willpower** — Powerless when the timer fails its role as overseer. Environmental design must accompany.
+6. **Not a standalone ADHD treatment** — Supplementary tool. Combine with professional diagnosis·treatment.
 
-## 이 프레임워크와 함께 쓰는 것들
+## What to Use This Framework With
 
-- **deep-work** — Pomodoro는 Deep Work의 *단위 구현*. 여러 pomo를 묶으면 deep block.
-- **deliberate-practice** — 매 pomodoro에 구체적 목표 + 피드백 삽입 시 deliberate practice 세션화.
-- **active-recall / spaced-repetition** — 1 pomodoro를 인출 세션으로. 다음 pomo는 다른 과목(→ interleaving).
-- **metalearning** — 자기 집중 패턴 추적·최적화.
+- **deep-work** — Pomodoro is the *unit implementation* of Deep Work. Grouping multiple pomos forms a deep block.
+- **deliberate-practice** — Inserting specific goals + feedback into each pomodoro turns it into a deliberate practice session.
+- **active-recall / spaced-repetition** — Make 1 pomodoro a retrieval session. The next pomo is a different subject (→ interleaving).
+- **metalearning** — Track·optimize your focus patterns.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 구조적 과부하(일 자체가 너무 많음) → 일정·업무량 협상 먼저
-- 우울·불안 기저 → 전문가 상담 (→ `counsel`)
-- 수면 부족 → 수면 우선
-- 집중법 아니라 설계 문제 → `deep-work` (환경·전체 구조)
-- 기본 학습법 없음 → `active-recall` / `metalearning` 먼저
+- Structural overload (too much work itself) → Negotiate schedule·workload first
+- Underlying depression·anxiety → Professional counseling (→ `counsel`)
+- Sleep deprivation → Prioritize sleep
+- Design problem, not focus method → `deep-work` (environment·overall structure)
+- No basic learning method → `active-recall` / `metalearning` first
 
-## 추가 학습
+## Further Reading
 
 - Cirillo, F. (2006/2018). *The Pomodoro Technique.*
 - Leroy, S. (2009). "Why is it so hard to do my work?" *OBHDP.*
 - Ward, A. F. et al. (2017). "Brain Drain: The Mere Presence of One's Own Smartphone..." *JACR.*
-- Newport, C. (2016). *Deep Work.* (관련 배경)
-- Kleitman, N. (1963). *Sleep and Wakefulness.* (Ultradian rhythm 배경)
+- Newport, C. (2016). *Deep Work.* (Related background)
+- Kleitman, N. (1963). *Sleep and Wakefulness.* (Ultradian rhythm background)

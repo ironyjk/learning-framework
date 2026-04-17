@@ -1,160 +1,160 @@
 ---
 name: deliberate-practice
 version: "0.1.0"
-description: "Deliberate Practice — Anders Ericsson의 의도적 연습 이론. 전문성은 시간이 아니라 *조건*이 만든다: 구체적 목표, 즉각 피드백, 현 한계 바로 밖, 고도 집중. '10,000시간 법칙'은 Ericsson 본인이 반박한 Gladwell식 과장."
+description: "Deliberate Practice — Anders Ericsson's theory of deliberate practice. Expertise is forged not by time but by *conditions*: specific goals, immediate feedback, just beyond current limits, intense focus. The '10,000-hour rule' is Gladwell-style hyperbole that Ericsson himself refuted."
 ---
 
 # Deliberate Practice
 
-## 레이어 위치
+## Layer Position
 
-**L5 (전이·수행)** — interleaving과 같은 층. 스킬 수행 자체를 한계 바로 바깥에서 반복·피드백. L2(deep-work)의 시간 블록 안에서 실행. 피드백 채널 부재 시 구조적으로 불가능.
+**L5 (Transfer & Performance)** — same layer as interleaving. Repetition and feedback of skill execution just beyond the limit. Runs inside the L2 (deep-work) time block. Structurally impossible without a feedback channel.
 
-## 한 줄 요약
+## One-Line Summary
 
-**시간만 쌓는다고 전문가가 되지 않는다.** 전문성은 *조건을 갖춘 연습* — 구체적 목표, 즉각적 피드백, 현재 한계 바로 밖 과제, 고도 집중 — 이 누적된 결과다.
+**Logging hours alone does not make an expert.** Expertise is the accumulated result of *practice meeting the conditions* — specific goals, immediate feedback, tasks just beyond current limits, intense focus.
 
-## 이론·연구 기원
+## Theoretical & Research Origins
 
-- **K. Anders Ericsson (1947~2020)** — Florida State U. 전문성 연구의 창시자. 체스·음악·의학·스포츠 전문가를 실증 분석.
-- **Ericsson, Krampe, & Tesch-Römer (1993)** — *Psychological Review.* 베를린 음악원 바이올리니스트 연구. 최상위 그룹이 20세까지 ~10,000시간 **deliberate practice** 누적. 이 논문이 후일 "10,000시간" 밈의 원본.
-- **Malcolm Gladwell (2008)** *Outliers* — 이 연구를 "10,000시간 법칙"으로 대중화. *Ericsson 본인이 명시적으로 반박*:
-  - 10,000은 *평균*이지 *법칙* 아님. 개인 편차 거대.
-  - "시간"이 아니라 *조건*이 핵심인데 Gladwell이 시간만 강조.
-  - 분야별 필요 시간 크게 다름 (암기 시합 ≠ 체스 ≠ 외과 수술).
-  - 이런 오해를 교정하려 Ericsson이 *Peak* (2016) 집필.
+- **K. Anders Ericsson (1947–2020)** — Florida State U. Founder of expertise research. Empirical analyses of experts in chess, music, medicine, and sports.
+- **Ericsson, Krampe, & Tesch-Römer (1993)** — *Psychological Review.* Study of violinists at the Berlin Music Academy. The top group had accumulated ~10,000 hours of **deliberate practice** by age 20. This paper became the original source of the later "10,000 hours" meme.
+- **Malcolm Gladwell (2008)** *Outliers* — popularized this research as the "10,000-hour rule." *Ericsson himself explicitly refuted it*:
+  - 10,000 is an *average*, not a *rule*. Individual variance is enormous.
+  - What matters is *conditions*, not "hours," yet Gladwell emphasized only hours.
+  - Required hours vary greatly by domain (memory competitions ≠ chess ≠ surgery).
+  - Ericsson wrote *Peak* (2016) to correct such misunderstandings.
 
-## 핵심 조건 (Ericsson)
+## Core Conditions (Ericsson)
 
-### 1. 구체적 목표
-- "잘하자" 아님. 예: 이 곡의 특정 16마디를 90 bpm에서 틀리지 않고 연주.
-- 측정 가능해야 함. 실패/성공이 명확해야 함.
+### 1. Specific Goals
+- Not "do well." E.g., play these specific 16 bars of the piece at 90 bpm without error.
+- Must be measurable. Failure/success must be unambiguous.
 
-### 2. 즉각적·구체적 피드백
-- 교사·코치·계측 장비·자기 녹화·시뮬레이션. 피드백 없으면 오답이 굳음(자동화된 실수).
-- 피드백이 *무엇을 어떻게 고칠지* 알려주는 수준이어야 함. "다시 해"는 부족.
+### 2. Immediate & Specific Feedback
+- Teacher, coach, measurement instrument, self-recording, simulation. Without feedback, errors harden (automated mistakes).
+- Feedback must tell you *what to fix and how*. "Try again" is insufficient.
 
-### 3. 한계 바로 바깥(edge of ability)
-- **너무 쉬우면**: 자동화됨. 배움 없음.
-- **너무 어려우면**: 실패만 반복. 좌절.
-- **바로 바깥**: 도전적이지만 도달 가능한 수준.
-- Vygotsky의 "근접발달영역"과 유사 개념.
+### 3. Edge of Ability
+- **Too easy**: becomes automatic. No learning.
+- **Too hard**: only repeated failure. Frustration.
+- **Just outside**: challenging but attainable.
+- Similar concept to Vygotsky's "Zone of Proximal Development."
 
-### 4. 고도 집중
-- 자동화 반복 아님. 매 반복마다 의식적 교정.
-- 1회 세션 ~60~90분이 상한. 그 이상은 집중 붕괴.
-- 세계급 피아니스트·외과의의 하루 *진짜 연습* 시간도 4~5시간이 상한.
+### 4. Intense Focus
+- Not automated repetition. Conscious correction in every repetition.
+- ~60–90 minutes is the ceiling for one session. Beyond that, focus collapses.
+- Even world-class pianists and surgeons cap *real practice* at 4–5 hours per day.
 
-### 5. 정신 모델(mental model) 형성
-- 초급자는 개별 동작. 전문가는 *상위 패턴*을 표상.
-- 연습이 쌓이며 더 큰 청크로 지각(→ `chunking`).
-- 이 표상 덕분에 새로운 상황에 빠르게 적응.
+### 5. Forming a Mental Model
+- Beginners handle individual movements. Experts represent *higher-order patterns*.
+- As practice accumulates, perception operates on larger chunks (→ `chunking`).
+- These representations allow rapid adaptation to novel situations.
 
-## "10,000시간 법칙"의 오해 바로잡기
+## Correcting the "10,000-Hour Rule" Misconception
 
-| Gladwell 대중판 | Ericsson 실제 주장 |
+| Popular Gladwell Version | Ericsson's Actual Claim |
 |---|---|
-| 10,000시간 쌓으면 전문가 | 시간은 지표일 뿐, 조건이 핵심 |
-| 누구나 그 시간이면 도달 | 개인차·분야차 큼. 평균값. |
-| 양이 성과 결정 | *Deliberate* practice 여야. 일상 반복 무관. |
-| 유전·재능은 무관 | Ericsson은 재능을 축소하긴 했으나 "시간이면 된다"고 하지 않음 |
+| 10,000 hours makes you an expert | Hours are just an indicator; conditions are the core |
+| Anyone reaches it in that time | Huge individual/domain variance. It's an average. |
+| Quantity determines performance | Must be *deliberate* practice. Ordinary repetition irrelevant. |
+| Genetics/talent irrelevant | Ericsson did downplay talent but never said "hours are enough" |
 
-**출발점 기억**: Ericsson 본인이 Gladwell을 공개적으로 비판. 대중서에 이 법칙이 자주 인용되면 원전으로 돌아가 확인.
+**Remember the starting point**: Ericsson publicly criticized Gladwell. When this "rule" is cited in popular books, return to the primary source to verify.
 
-## 언제 쓰나
+## When to Use
 
-- **구체적 스킬 향상** — 악기·운동·체스·프로그래밍·의술·외과·발표·번역 등
-- **정체(plateau) 돌파** — 오래 연습했는데 실력 고정
-- **전문성 한 단계 업** — 중급 → 상급
-- **취미 → 준전문가 이행**
+- **Improving specific skills** — musical instruments, sports, chess, programming, medicine, surgery, presentations, translation, etc.
+- **Breaking through plateaus** — long practice but skill has stagnated
+- **Leveling up expertise** — intermediate → advanced
+- **Transitioning from hobby to semi-professional**
 
-## 실전 프로토콜
+## Practical Protocol
 
-### 1. 성과 구성 요소 해체
-- 그 스킬을 *하위 부품*으로 분해. 예: 피아노 연주 = 시야·운지·템포·다이내믹·페달·음악적 해석...
-- 가장 약한 부품 1~2개 식별. 그곳에 집중.
+### 1. Decompose Performance Components
+- Break the skill into *sub-parts*. E.g., piano performance = sight-reading, fingering, tempo, dynamics, pedaling, musical interpretation...
+- Identify the 1–2 weakest parts. Focus there.
 
-### 2. 구체적 목표 설정 (매 세션)
-- 이번 세션 = "X를 Y 조건에서 Z번 성공".
-- 모호함 금지.
+### 2. Set Specific Goals (Every Session)
+- This session = "achieve X under Y conditions Z times."
+- No ambiguity.
 
-### 3. 피드백 채널 확보
-- 교사·코치 > 녹화 자기 리뷰 > 계측 > 동료. 없으면 만든다.
-- 없으면 deliberate practice가 불가능에 가까움.
+### 3. Secure a Feedback Channel
+- Teacher/coach > recorded self-review > measurement > peer. If none exists, create one.
+- Without it, deliberate practice is nearly impossible.
 
-### 4. 한계 바로 바깥 과제 선택
-- 편안하면 난이도 올림. 도달 불가능이면 내림.
-- 이전 세션 성공률 ~70~85%가 대략 적정.
+### 4. Choose Tasks Just Beyond the Limit
+- Too comfortable → raise difficulty. Unreachable → lower it.
+- Roughly 70–85% success rate in the previous session is appropriate.
 
-### 5. 짧고 집중된 세션
-- 60~90분 × 1~2회/일. 더 많이는 허상.
-- 세션 사이 휴식·수면 필수(기억 공고화).
+### 5. Short, Focused Sessions
+- 60–90 minutes × 1–2/day. More is illusion.
+- Rest and sleep between sessions are essential (memory consolidation).
 
-### 6. 사후 리뷰
-- 세션 종료 후 3~5분: 무엇이 잘됐나·안 됐나·다음 세션 목표.
+### 6. Post-Session Review
+- 3–5 minutes after session end: what worked, what didn't, goal for next session.
 
-### 7. 코치 or 멘토 (피드백 채널이 정체의 최대 병목)
-- 혼자 하면 blind spot이 굳음. 외부 눈 필수.
-- 한국 맥락 채널:
-  - **과외·개인 레슨**: 악기·스포츠·어학. 시간당 비용이 높아 보여도 정체 돌파 시간 대비 저렴한 경우 많음.
-  - **학원 Q&A·인강 질문 게시판**: 자격증 시험. 공식 해설 + 강사 피드백.
-  - **스터디**: 공무원·자격증·코딩 부트캠프. 서로 인출·질문 → 피드백 루프.
-  - **현업 멘토·사내 시니어**: 실무 스킬 정체. 코드 리뷰·1:1 PR 피드백.
-  - **AI 보조**: 즉시성·무한 인내 강점. 단 사실 오류 위험 — 고위험 영역은 공식 자료 교차 검증 필수. AI는 Feynman 청중·코드 리뷰 1차·발표 리허설 청중 역할에 유효 (→ `metalearning`의 AI 활용 절).
-  - **자기 녹화**: 연주·발표·강의. 외부 피드백 확보 어려울 때 차선.
-- *피드백 사이클 길이*가 성장 속도를 결정. 주 1회 피드백 < 세션마다 피드백.
+### 7. Coach or Mentor (the feedback channel is the biggest bottleneck to progress)
+- Going solo hardens blind spots. External eyes are essential.
+- Channels in the Korean context:
+  - **Private tutoring/individual lessons**: instruments, sports, language. Hourly costs may seem high but are often cheap relative to time saved breaking plateaus.
+  - **Academy Q&A / online-lecture question boards**: certification exams. Official explanations + instructor feedback.
+  - **Study groups**: civil service exam, certifications, coding bootcamps. Mutual retrieval and questioning → feedback loop.
+  - **Workplace mentors / senior colleagues**: practical-skill plateaus. Code reviews, 1:1 PR feedback.
+  - **AI assistance**: strengths in immediacy and infinite patience. But factual-error risk — in high-stakes domains, cross-verify against official sources. AI is effective as a Feynman audience, first-pass code reviewer, or rehearsal audience for presentations (→ see the AI-use section in `metalearning`).
+  - **Self-recording**: performances, presentations, lectures. Second-best when external feedback is hard to secure.
+- *Feedback cycle length* determines growth speed. Weekly feedback < feedback every session.
 
-## 한국 맥락 예시
+## Korean Context Examples
 
-**프로그래밍 정체기 돌파**:
-- 10년차 개발자가 "코드는 쓰는데 더 늘지 않음"
-- 해체: 설계·알고리즘·디버깅·코드 리뷰·시스템 설계
-- 약점: 시스템 설계 인터뷰 수준 설계.
-- 목표: "주 2회, System Design 기출 문제 1개 → 45분 설계 → 녹화 → 다음날 모범 답안 비교"
-- 피드백: 유명 시니어 엔지니어 유튜브·책(Alex Xu)·동료 리뷰
-- 한계 바로 밖: 처음엔 간단 시스템부터, 점진적으로 복잡 시스템
-- 6개월 후 실력 측정 가능한 개선
+**Breaking through a programming plateau**:
+- A 10-year developer: "I write code but I'm not improving."
+- Decomposition: design, algorithms, debugging, code review, system design
+- Weakness: system design at interview-level quality.
+- Goal: "Twice weekly, 1 past System Design question → 45-minute design → record → compare with model answer the next day"
+- Feedback: YouTube and books from well-known senior engineers (Alex Xu), peer reviews
+- Edge of ability: start with simple systems, progressively more complex
+- Measurable improvement after 6 months
 
-**주의**: "GitHub commit 많이 = 늘어난다"는 Deliberate Practice 아님. 시간·양 쌓기.
+**Caution**: "Many GitHub commits = improvement" is not Deliberate Practice. Just piling up time and quantity.
 
-## 안티패턴
+## Anti-Patterns
 
-- **"10,000시간 채우면 된다"** — Gladwell식 오해. 조건 없는 시간은 정체.
-- **편한 반복** — 이미 할 수 있는 것 반복. 자동화되어 배움 없음.
-- **피드백 없는 연습** — 자기 인식만으론 blind spot 안 보임.
-- **너무 어려운 과제만** — 실패만 반복 → 동기·자신감 붕괴.
-- **한 번에 여러 약점** — 분할 정복. 약점 1~2개에 집중.
-- **양이 동기 지표** — "하루 8시간" 자랑. 실제론 4시간 이상은 품질 저하.
-- **결과 지향 피드백** — 시합 결과만 보고 수정. 과정 피드백(무엇을 어떻게)이 필요.
+- **"Just clock 10,000 hours"** — Gladwell-style misunderstanding. Hours without conditions lead to stagnation.
+- **Comfortable repetition** — repeating what you already can do. Automated, no learning.
+- **Practice without feedback** — self-perception alone cannot reveal blind spots.
+- **Only overly difficult tasks** — only failure repeats → motivation and confidence collapse.
+- **Multiple weaknesses at once** — divide and conquer. Focus on 1–2 weaknesses.
+- **Volume as a motivation metric** — bragging "8 hours a day." Quality actually drops beyond 4 hours.
+- **Outcome-oriented feedback** — fixing based on match results only. You need process feedback (what and how).
 
-## 한계
+## Limitations
 
-1. **적용 가능 분야** — 명확한 수행 기준 + 즉각 피드백 가능한 분야에 강함. 창의 작업·연구 등엔 부분만 적용.
-2. **코치·피드백 접근성** — 현실에선 좋은 피드백이 희소. 이게 가장 큰 장벽.
-3. **체력·정신력 한계** — 고강도 연습은 지속 어려움. 휴식·회복 설계 필수.
-4. **재능·유전 논쟁** — Ericsson은 환경 우위 주장, 이후 연구(Macnamara et al. 2014 메타)는 연습 시간이 수행 분산의 설명력이 분야별로 크게 다르다고 보고(게임 ~26%, 음악 ~21%, 스포츠 ~18%, 교육 ~4%, 직업 ~1%). 평균적으로 Ericsson이 주장한 것보다 훨씬 낮음.
-5. **10,000시간 오남용** — 유명세로 인해 오해가 정정돼도 계속 재생산됨.
-6. **동기 유지** — Deliberate Practice는 *즐겁지 않다*. 그래서 대다수가 일정 수준에서 멈춤.
+1. **Applicable domains** — strong where there are clear performance criteria plus feedback available immediately. Only partially applies to creative work, research, etc.
+2. **Access to coaches/feedback** — good feedback is scarce in reality. This is the biggest barrier.
+3. **Physical/mental limits** — high-intensity practice is hard to sustain. Rest and recovery must be designed in.
+4. **Talent/genetics debate** — Ericsson argued for environmental dominance; later research (Macnamara et al. 2014 meta-analysis) reports that practice hours explain performance variance very differently by domain (games ~26%, music ~21%, sports ~18%, education ~4%, professions ~1%). On average, much lower than Ericsson claimed.
+5. **Misuse of the 10,000-hour meme** — due to its fame, the misconception keeps being reproduced even after being corrected.
+6. **Sustaining motivation** — Deliberate Practice is *not enjoyable*. Which is why most people stop at some level.
 
-## 이 프레임워크와 함께 쓰는 것들
+## Frameworks That Pair With This One
 
-- **metalearning** — 스킬 해체·학습 설계는 메타 학습의 핵심. Scott Young *Ultralearning*은 deliberate practice를 프로젝트 단위로.
-- **chunking** — 전문가의 청크 표상이 deliberate practice의 산출물.
-- **interleaving** — 약점 부품을 여러 개 섞어 연습하면 전이 강화.
-- **deep-work** — 1~2시간 고도 집중 블록이 deliberate practice의 환경.
-- **feynman-technique** — 개념·이론 약점 돌파엔 Feynman. 실행 약점엔 Deliberate Practice.
+- **metalearning** — skill decomposition and learning design are the core of meta-learning. Scott Young's *Ultralearning* organizes deliberate practice into projects.
+- **chunking** — the expert's chunked representations are the output of deliberate practice.
+- **interleaving** — mixing multiple weak sub-parts in practice enhances transfer.
+- **deep-work** — the 1–2 hour intense focus block is the environment for deliberate practice.
+- **feynman-technique** — for weaknesses in concept/theory, use Feynman. For weaknesses in execution, Deliberate Practice.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework is *Wrong*
 
-- 개념 이해 문제 → `feynman-technique`
-- 사실·정보 유지 → `spaced-repetition`
-- 새 분야 *진입* → `metalearning` 먼저 (해체·설계 단계)
-- 집중 자체가 안 됨 → `pomodoro-and-focus`
-- 단기 시험 대비 → `active-recall` + SRS
+- Problems understanding concepts → `feynman-technique`
+- Retaining facts/information → `spaced-repetition`
+- *Entering* a new field → start with `metalearning` (decomposition and design stage)
+- Cannot focus at all → `pomodoro-and-focus`
+- Short-term exam prep → `active-recall` + SRS
 
-## 추가 학습
+## Further Reading
 
-- Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). "The role of deliberate practice in the acquisition of expert performance." *Psychological Review.* (원 논문)
-- Ericsson, A. & Pool, R. (2016). *Peak: Secrets from the New Science of Expertise.* (대중판. 10,000시간 오해 정정 포함)
-- Macnamara, B. N. et al. (2014). "Deliberate practice and performance in music, games, sports, education, and professions: A meta-analysis." *Psychological Science.* (연습 시간의 설명력에 대한 비판적 메타)
-- Gladwell, M. (2008). *Outliers.* (대중화 원본 — 한계 인지하며 읽을 것)
+- Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). "The role of deliberate practice in the acquisition of expert performance." *Psychological Review.* (original paper)
+- Ericsson, A. & Pool, R. (2016). *Peak: Secrets from the New Science of Expertise.* (popular edition. Includes correction of the 10,000-hour misconception.)
+- Macnamara, B. N. et al. (2014). "Deliberate practice and performance in music, games, sports, education, and professions: A meta-analysis." *Psychological Science.* (critical meta on the explanatory power of practice hours)
+- Gladwell, M. (2008). *Outliers.* (original popularization — read while aware of its limits)

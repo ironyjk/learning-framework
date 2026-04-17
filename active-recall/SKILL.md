@@ -1,154 +1,154 @@
 ---
 name: active-recall
 version: "0.1.0"
-description: "Active Recall (Retrieval Practice) — Roediger·Karpicke의 testing effect. 재학습(re-study)보다 인출(re-test)이 장기 기억에 유리. 하이라이트·재독 함정, 생성 효과, desirable difficulty."
+description: "Active Recall (Retrieval Practice) — The testing effect by Roediger·Karpicke. Retrieval (re-test) beats re-study for long-term memory. Pitfalls of highlighting·rereading, the generation effect, desirable difficulty."
 ---
 
 # Active Recall (Retrieval Practice)
 
-## 레이어 위치
+## Layer Position
 
-**L4 (인출·유지)** — 위 레이어(L3 이해 = feynman·chunking)에서 구조가 생긴 뒤, 아래 레이어(L5 전이 = interleaving·deliberate-practice)로 연결. 단독으로는 L4만 커버하므로 `spaced-repetition`과 한 몸으로 쓴다.
+**L4 (Retrieval·Retention)** — After structure is formed at the upper layer (L3 comprehension = feynman·chunking), it connects to the lower layer (L5 transfer = interleaving·deliberate-practice). Since it covers only L4 alone, use it as one body with `spaced-repetition`.
 
-## 한 줄 요약
+## One-Line Summary
 
-**기억을 밀어넣지 말고, 꺼내는 연습을 하라.** 읽기·하이라이트·요약 재독은 *익숙함의 착각*을 만들 뿐이다. 인출 시도 자체가 학습이다. **Dunlosky et al. (2013) 메타 리뷰에서 practice testing은 distributed practice와 함께 가장 높은 utility 등급을 받은 두 기법 중 하나**다.
+**Don't push memory in — practice pulling it out.** Reading·highlighting·rereading summaries only creates an *illusion of familiarity*. The act of retrieval attempt is itself learning. **In the Dunlosky et al. (2013) meta-review, practice testing was one of only two techniques to receive the highest utility rating, alongside distributed practice.**
 
-## 이론·연구 기원
+## Theoretical·Research Origins
 
-- **Henry Roediger III & Jeffrey Karpicke (2006)** "Test-Enhanced Learning." *Psychological Science.* — 학부생에 과학 지문 학습 후:
-  - 그룹 A: 4회 재독
-  - 그룹 B: 1회 읽고 3회 테스트
-  - 직후 시험: A > B (재독이 유리 보임)
-  - **1주일 뒤: B가 A보다 약 50% 더 기억**
-- **Roediger & Butler (2011)** — "The critical role of retrieval practice in long-term retention." 메타 리뷰.
-- **Karpicke & Blunt (2011)** *Science* — 인출 연습 > 정교한 개념 맵 작성. 저자들이 "놀라움"으로 보고.
-- 핵심 효과명:
+- **Henry Roediger III & Jeffrey Karpicke (2006)** "Test-Enhanced Learning." *Psychological Science.* — After undergraduates studied science passages:
+  - Group A: 4 rereads
+  - Group B: 1 read and 3 tests
+  - Immediate test: A > B (rereading appears advantageous)
+  - **1 week later: B remembered about 50% more than A**
+- **Roediger & Butler (2011)** — "The critical role of retrieval practice in long-term retention." Meta-review.
+- **Karpicke & Blunt (2011)** *Science* — Retrieval practice > elaborate concept mapping. Reported as "surprising" by the authors.
+- Key effect names:
   - **Testing effect (testing enhances learning)** — Roediger·Karpicke 2006
-  - **Generation effect** — Slamecka·Graf 1978. 스스로 답 생성 시 유지 강화.
-  - **Desirable difficulty** — Robert Bjork. *학습 중 어려움*이 장기 유지를 돕는다.
-  - **Illusion of competence** — Koriat·Bjork 2005. 재독 후 "알고 있다" 느낌과 실제 수행 괴리.
+  - **Generation effect** — Slamecka·Graf 1978. Retention is strengthened when one generates answers oneself.
+  - **Desirable difficulty** — Robert Bjork. *Difficulty during learning* aids long-term retention.
+  - **Illusion of competence** — Koriat·Bjork 2005. The gap between the "I know this" feeling after rereading and actual performance.
 
-## 핵심 개념
+## Core Concepts
 
-### 1. 재학습 ≠ 학습
-- 읽기·하이라이트·요약문 재독 — *친숙함*만 높임. 친숙함은 기억 단서가 아님.
-- 시험 당일 인출 상황에서 필요한 것은 *인출 능력*. 직접 연습해야 함.
+### 1. Restudy ≠ Learning
+- Reading·highlighting·rereading summaries — only raises *familiarity*. Familiarity is not a memory cue.
+- What's needed in the retrieval situation on test day is *retrieval ability*. It must be practiced directly.
 
-### 2. 인출의 종류 (강도 순)
-1. **자유 회상(free recall)** — 아무 단서 없이 다 써보기. 가장 강한 인출.
-2. **단서 회상(cued recall)** — 제목·키워드 주고 채우기.
-3. **재인(recognition)** — 객관식. 가장 약한 인출. 학습 효과 낮음.
-4. **재독** — 인출 아님. 학습 효과 미미.
+### 2. Types of Retrieval (in order of strength)
+1. **Free recall** — Writing everything down without any cue. Strongest retrieval.
+2. **Cued recall** — Given titles·keywords, filling in.
+3. **Recognition** — Multiple choice. Weakest retrieval. Low learning effect.
+4. **Rereading** — Not retrieval. Negligible learning effect.
 
-### 3. 인출 실패의 가치
-- 못 떠올려도 "떠올리려 한 시도" 자체가 학습. 다음 학습 시 효과 증폭(productive failure).
-- 단 직후 피드백 필수 — 틀린 채로 굳으면 안 됨.
+### 3. The Value of Retrieval Failure
+- Even if you can't recall, the "attempt to recall" itself is learning. Effect amplifies in the next learning session (productive failure).
+- However, immediate feedback is essential — it must not solidify incorrectly.
 
-### 4. Illusion of competence
-- 재독 후: "알 것 같다" 점수 ↑, 실제 시험 점수는 그대로
-- 인출 후: "잘 모르겠다" 점수 ↑, 실제 시험 점수 ↑
-- 자기 판단이 반대라는 게 함정. 주관 신호를 믿지 말 것.
+### 4. Illusion of Competence
+- After rereading: "I think I know it" score ↑, actual test score unchanged
+- After retrieval: "I'm not sure" score ↑, actual test score ↑
+- The trap is that self-judgment is reversed. Don't trust subjective signals.
 
-## 언제 쓰나
+## When to Use
 
-- 시험·자격증 준비 전반
-- 강의·책 읽은 후 며칠 뒤 유지 필요할 때
-- "읽긴 했는데 시험에서 못 씀" 증상
-- 강의 노트·하이라이트만 반복하는 습관을 바꿀 때
-- 거의 모든 학습 상황에 기본 엔진으로 들어가야 함
+- General exam·certification preparation
+- When retention is needed days after lectures·reading
+- "I read it but couldn't use it on the test" symptom
+- When changing the habit of only repeating lecture notes·highlights
+- Should be put in as the base engine in almost every learning situation
 
-## 실전 기법
+## Practical Techniques
 
-### 1. Blank page method (빈 종이법)
-- 학습 단위 끝난 후 책 덮고, 빈 종이에 기억나는 것을 씀.
-- 막힌 곳 표시. 이후 원본 펼쳐 확인·보완.
-- 시간: 10~20분
+### 1. Blank page method
+- After finishing a learning unit, close the book and write down what you remember on a blank page.
+- Mark where you got stuck. Then open the original to verify·supplement.
+- Time: 10~20 minutes
 
 ### 2. Self-explanation questions
-- 읽는 중간 스스로 질문 생성: "왜 이렇게 되지?", "반례는?", "내 경험에 어떻게 적용?"
-- 답을 속으로·종이에 적음.
+- Generate questions to yourself while reading: "Why does this happen?", "Any counterexamples?", "How does this apply to my experience?"
+- Answer silently·on paper.
 
-### 3. Flashcards (→ SRS와 결합)
-- 인출 + 간격 최적화 = 강한 조합. (→ `spaced-repetition`)
+### 3. Flashcards (→ combined with SRS)
+- Retrieval + interval optimization = a strong combination. (→ `spaced-repetition`)
 
 ### 4. Mock exam
-- 연습 문제·기출을 *배우기 전에* 풀어본다(pretesting). 틀려도 OK — 호기심 생성 + 학습 효과 향상(Richland et al. 2009).
+- Try practice problems·past exams *before learning* (pretesting). It's OK to be wrong — generates curiosity + improves learning effect (Richland et al. 2009).
 
 ### 5. Teach it (Feynman)
-- 누군가에게 설명 → 인출의 고난이도 형태. (→ `feynman-technique`)
+- Explain to someone → a high-difficulty form of retrieval. (→ `feynman-technique`)
 
 ### 6. Summary without source
-- 한 챕터 읽은 후 책 덮고 요약 작성. 다시 열어 비교·교정.
+- After reading a chapter, close the book and write a summary. Reopen to compare·correct.
 
-## 한국 맥락 예시
+## Korean Context Examples
 
-자격증·공인 시험 준비에서 일어나는 변화:
+Changes that occur in certification·public exam preparation:
 
-**기존(비효율)**: 인강 1.5배속 시청 → 교재 형광펜 → 시험 전날 재독. 점수 정체.
+**Existing (inefficient)**: Watch online lectures at 1.5x speed → highlight the textbook → reread the night before the exam. Score stagnates.
 
-**Active Recall 적용**:
-- 강의 한 단원 듣고 → *책 덮고* 빈 종이에 핵심 개념 5개 쓰기
-- 각 개념에 "이건 왜 필요하지?" 자문 + 답
-- 기출 1회분 먼저 풀고 → 틀린 부분만 강의로
-- 1주 뒤 같은 단원 빈 종이 테스트 재시도
+**Active Recall applied**:
+- After listening to one section of a lecture → *close the book* and write 5 core concepts on a blank page
+- For each concept, ask yourself "Why is this needed?" + answer
+- Solve one round of past exams first → only the parts you got wrong with the lecture
+- 1 week later, retry the blank-page test on the same section
 
-보통 2~4주 안에 주관적 불편감 ↑, 시험 점수 ↑ 패턴이 나타남.
+Usually within 2~4 weeks, a pattern emerges of subjective discomfort ↑, test score ↑.
 
-### 한국 학습 문화와 Active Recall의 관계
+### Relationship Between Korean Learning Culture and Active Recall
 
-한국 학습자에게 이미 친숙한 것 중 일부는 사실 active recall 원리:
+Some things already familiar to Korean learners are in fact active recall principles:
 
-| 한국식 도구·습관 | 인지과학 해석 | 판정 |
+| Korean-style tool·habit | Cognitive science interpretation | Verdict |
 |---|---|---|
-| **오답노트** | Retrieval practice + error-driven learning + spacing | ☆ 계속 쓸 것 |
-| **기출 풀이** | Pretesting + retrieval | ☆ 효과적 |
-| **스터디 발표·질문** | Free recall + teach-to-learn | ☆ 고강도 인출 |
-| **모의고사** | 인출 + 시험 형태 일치 | ☆ 시험 준비 핵심 |
-| **회독(3회독·5회독·10회독)** | 반복 재독 — 익숙함만 ↑ | ✗ 1회독 후 인출로 전환 |
-| **인강 1.5배속 완주** | 수동 재인 — illusion of competence | ✗ 강의 후 책 덮고 요약 |
-| **형광펜·밑줄** | Dunlosky low utility | ✗ 도구가 아니라 자극. 덮고 인출 |
-| **필기 정리** | 원본 보며 쓰면 재독 / 덮고 쓰면 인출 | △ 출처 덮는가가 갈림 |
+| **Wrong-answer notebook (오답노트)** | Retrieval practice + error-driven learning + spacing | ☆ Keep using |
+| **Past-exam practice (기출 풀이)** | Pretesting + retrieval | ☆ Effective |
+| **Study group presentations·questions** | Free recall + teach-to-learn | ☆ High-intensity retrieval |
+| **Mock exams (모의고사)** | Retrieval + test format matching | ☆ Core of exam preparation |
+| **Multiple-reading (회독 — 3회독·5회독·10회독)** | Repeated rereading — raises only familiarity | ✗ After 1 reading, switch to retrieval |
+| **Completing online lectures at 1.5x speed (인강)** | Passive recognition — illusion of competence | ✗ After the lecture, close the book and summarize |
+| **Highlighters·underlining (형광펜·밑줄)** | Dunlosky low utility | ✗ It's a stimulus, not a tool. Cover and retrieve |
+| **Taking notes (필기 정리)** | Rereading if done while looking at the source / retrieval if done with it covered | △ Hinges on whether the source is covered |
 
-**핵심 전환**: "회독 N회"가 아니라 **"1회독 + 인출 N회"**. 책을 다시 *여는* 것이 아니라 *덮고 꺼내는* 것이 학습.
+**Key shift**: Not "N rounds of reading" but **"1 round of reading + N rounds of retrieval."** Learning is not *opening* the book again but *closing and pulling out*.
 
-## 안티패턴
+## Anti-patterns
 
-- **하이라이트가 공부** — 근거 부재. Dunlosky et al. (2013) 메타 리뷰에서 하이라이트는 *효과 낮음* 범주.
-- **요약문 만들기 = 인출 착각** — 원본 보며 만드는 요약은 인출 아님. 덮고 써야 인출.
-- **객관식만 풀기** — 재인(recognition)만 반복하면 서술·적용에서 무너짐.
-- **피드백 없는 인출** — 틀린 답이 굳을 수 있음. 직후 확인 필수.
-- **초반에 너무 어렵게** — 완전히 못 떠올리면 학습이 아니라 좌절. 힌트를 단계적으로.
-- **"한 번 맞췄으니 됐다"** — 한 번 인출은 부족. 간격 두고 재인출 필요(→ SRS).
+- **Highlighting is studying** — No evidence. In the Dunlosky et al. (2013) meta-review, highlighting falls in the *low-effect* category.
+- **Making summaries = illusion of retrieval** — A summary made while looking at the source is not retrieval. You have to cover it and write.
+- **Only solving multiple choice** — Repeating only recognition collapses in essay·application.
+- **Retrieval without feedback** — Wrong answers can solidify. Immediate verification is essential.
+- **Too difficult at the start** — If you can't recall anything, it's not learning but frustration. Use hints in stages.
+- **"I got it once, so I'm done"** — One retrieval is insufficient. Re-retrieval at intervals is needed (→ SRS).
 
-## 한계
+## Limitations
 
-1. **이해가 전혀 없을 때는 안 됨** — 인출할 구조가 있어야 함. 최초 학습은 읽기·강의·관찰 필요.
-2. **고부하** — 편한 학습보다 피곤. 장기적으로 이득이지만 단기 불편.
-3. **잘못된 답 정착 위험** — 피드백 없으면 오답이 굳음.
-4. **절차적 스킬엔 부분 적용** — 운동·악기 스킬은 인출이 아닌 *반복 실행*이 필요. (→ `deliberate-practice`)
-5. **시험 형태와 매칭** — 서술 시험을 객관식으로만 연습하면 전이 약함. 출력 형태를 연습 형태로.
-6. **불안·스트레스** — 시험 불안 큰 사람은 자유 회상에서 막힘이 더 생김. 점진적 접근 필요.
+1. **Doesn't work when there's no understanding at all** — There must be a structure to retrieve. Initial learning requires reading·lectures·observation.
+2. **High load** — More tiring than comfortable learning. Beneficial long-term but uncomfortable short-term.
+3. **Risk of incorrect answers settling in** — Without feedback, wrong answers solidify.
+4. **Partial application to procedural skills** — Exercise·instrument skills require *repeated execution*, not retrieval. (→ `deliberate-practice`)
+5. **Matching test format** — If you practice an essay exam only with multiple choice, transfer is weak. Match output form to practice form.
+6. **Anxiety·stress** — People with high test anxiety get stuck more often in free recall. A gradual approach is needed.
 
-## 이 프레임워크와 함께 쓰는 것들
+## Used Together With This Framework
 
-- **spaced-repetition** — 한 몸. 인출 + 최적 간격. SRS 없이 인출만 하면 일회성.
-- **feynman-technique** — 설명 = 고난이도 인출. 같은 가족.
-- **interleaving** — 인출을 여러 주제 섞어서 하면 전이 증가.
-- **zettelkasten / evergreen-notes** — 개념 노트 쓰기 자체가 인출 연습 (자기 말로 쓰기).
-- **metalearning** — 어떤 인출 방식이 내 목적에 맞는지 설계.
+- **spaced-repetition** — One body. Retrieval + optimal intervals. Doing retrieval alone without SRS is one-off.
+- **feynman-technique** — Explaining = high-difficulty retrieval. Same family.
+- **interleaving** — Retrieving while mixing several topics increases transfer.
+- **zettelkasten / evergreen-notes** — Writing concept notes is itself retrieval practice (writing in your own words).
+- **metalearning** — Design which retrieval method fits your purpose.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 개념 이해 자체가 약함 → `feynman-technique` 먼저
-- 실행 스킬(연주·코딩·운동) → `deliberate-practice`
-- 창조적·연구적 통찰 — 인출만으론 부족 → `zettelkasten` / `evergreen-notes`
-- 집중 자체가 불가 → `deep-work` / `pomodoro-and-focus`
+- Concept understanding itself is weak → `feynman-technique` first
+- Execution skills (playing·coding·exercise) → `deliberate-practice`
+- Creative·research insights — retrieval alone is insufficient → `zettelkasten` / `evergreen-notes`
+- Focus itself is impossible → `deep-work` / `pomodoro-and-focus`
 
-## 추가 학습
+## Further Learning
 
 - Roediger, H. L. III & Karpicke, J. D. (2006). "Test-Enhanced Learning." *Psychological Science.*
 - Karpicke, J. D. & Blunt, J. R. (2011). "Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping." *Science.*
-- Dunlosky, J. et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest.* (학습 기법 효과 평가 메타)
-- Brown, P. C., Roediger, H. L., McDaniel, M. A. (2014). *Make It Stick.* (대중서)
-- Bjork, R. A. "Desirable difficulties" 관련 논문들 (bjorklab.psych.ucla.edu)
+- Dunlosky, J. et al. (2013). "Improving Students' Learning With Effective Learning Techniques." *Psychological Science in the Public Interest.* (Meta-evaluation of learning technique effectiveness)
+- Brown, P. C., Roediger, H. L., McDaniel, M. A. (2014). *Make It Stick.* (Popular book)
+- Bjork, R. A. Papers related to "Desirable difficulties" (bjorklab.psych.ucla.edu)

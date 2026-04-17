@@ -1,163 +1,163 @@
 ---
 name: feynman-technique
 version: "0.1.0"
-description: "Feynman Technique — 초보자에게 설명해보며 이해의 구멍을 드러내는 방법. 4단계 프로토콜(선택→설명→막힘 식별→단순화). ELI5 접근. illusion of competence를 깨는 가장 빠른 도구."
+description: "Feynman Technique — a method of revealing gaps in understanding by explaining to a beginner. 4-step protocol (Choose → Teach → Identify gaps → Simplify). ELI5 approach. The fastest tool to break the illusion of competence."
 ---
 
 # Feynman Technique
 
-## 레이어 위치
+## Layer Position
 
-**L3 (이해)** — chunking과 함께 이해 층. L4(인출·유지)로 넘어가기 전 개념이 자기 언어로 재구성되는지 검증. Feynman 실패 = 이해 부족 신호 → 원자료 복귀 또는 `chunking` 재설계.
+**L3 (Understanding)** — Together with chunking, this belongs to the understanding layer. Before moving to L4 (retrieval/retention), it verifies whether concepts have been reconstructed in one's own language. Failing at Feynman = a signal of insufficient understanding → return to source material or redesign `chunking`.
 
-## 한 줄 요약
+## One-Line Summary
 
-**설명할 수 없으면 이해하지 못한 것이다.** 자기 말로 초보자에게 설명해보면 이해의 구멍이 자동으로 드러난다.
+**If you can't explain it, you don't understand it.** Explaining to a beginner in your own words automatically exposes gaps in understanding.
 
-## 이론·기원
+## Theory & Origin
 
-- **Richard Feynman (1918~1988)** — 노벨 물리학자, 전설적 강의자. "설명 기술"을 자기 학습법으로 강조. 다만 "4단계 기법"이라는 체계화는 Feynman 본인이 아니라 후대(주로 Scott Young과 생산성 블로그)의 정리.
-- Feynman 자신의 실천: "Notebook of Things I Don't Know About" — 모르는 것을 쓰고, 첫 원칙부터 재구성.
-- **ELI5 ("Explain Like I'm 5")** — 인터넷 문화에서 같은 직관이 확장됨.
-- 인지과학적 근거:
-  - **Self-explanation effect** (Chi et al. 1994) — 자기 설명 시도 학생의 이해 깊이가 유의미하게 증가.
-  - **Protégé effect** (Bargh & Schul 1980, Chase et al. 2009) — "가르친다 생각하고 배우는" 사람이 *실제 배움 기준*에서도 더 잘 배움.
-  - **Generation effect** (→ `active-recall`) — 스스로 만들어낸 설명이 받은 설명보다 기억에 강함.
+- **Richard Feynman (1918~1988)** — Nobel laureate physicist, legendary lecturer. Emphasized the "art of explanation" as his own learning method. However, the systematization into a "4-step technique" was not by Feynman himself but by later figures (mainly Scott Young and productivity blogs).
+- Feynman's own practice: "Notebook of Things I Don't Know About" — writing down what he didn't know and reconstructing from first principles.
+- **ELI5 ("Explain Like I'm 5")** — the same intuition extended in internet culture.
+- Cognitive science basis:
+  - **Self-explanation effect** (Chi et al. 1994) — students who attempt self-explanation show a significant increase in depth of understanding.
+  - **Protégé effect** (Bargh & Schul 1980, Chase et al. 2009) — people who "learn while thinking they'll teach" actually learn better *by the measure of real learning*.
+  - **Generation effect** (→ `active-recall`) — self-generated explanations stick in memory more strongly than received explanations.
 
-## 4단계 프로토콜
+## 4-Step Protocol
 
-### 1. Choose (주제 선택)
-- 이해하려는 개념·문제를 하나 선택. 제목만 적음.
-- 너무 크면 쪼갬. "양자역학" 아니라 "Heisenberg 불확정성 원리".
+### 1. Choose (Topic Selection)
+- Select one concept/problem you want to understand. Write down only the title.
+- If it's too big, break it down. Not "quantum mechanics" but "Heisenberg uncertainty principle."
 
-### 2. Teach (초보자에게 설명하듯 쓰기)
-- 빈 종이·문서에 *누군가 가르친다고 가정*하고 설명.
-- **자기 언어**로. 전문용어 나오면 옆에 평이한 풀이 병기.
-- 예시·비유·간단한 그림 사용.
-- 12세 아이가 이해할 수 있나가 기준 (ELI5는 과장, 12세 기준이 실용적).
+### 2. Teach (Write as if Teaching a Beginner)
+- On a blank page/document, *assume you are teaching someone* and explain.
+- In **your own language**. When technical terms appear, provide a plain-language rendering alongside.
+- Use examples, analogies, and simple drawings.
+- The standard is whether a 12-year-old can understand it (ELI5 is an exaggeration; the 12-year-old standard is practical).
 
-### 3. Identify gaps (막힘·얼버무림 식별)
-- 설명 도중 *막히는 지점*·*얼버무리는 지점*·*전문용어로 숨기는 지점*을 표시.
-- "음...", "그러니까 대충", "자세히는 모르지만" — 전부 구멍.
-- 원자료(책·강의)로 돌아가 그 구멍만 다시 공부.
+### 3. Identify gaps (Detecting Blocks & Hand-Waving)
+- Mark *points where you get stuck*, *points where you wave your hands*, and *points where you hide behind jargon* during explanation.
+- "Um...", "so roughly speaking", "I don't know the details but" — all gaps.
+- Return to source material (books, lectures) and re-study only those gaps.
 
-### 4. Simplify & refine (단순화·정제)
-- 여전히 복잡하면 더 단순한 비유·예시를 찾음.
-- 반복. 여러 번 단순화를 거치면 이해의 밀도가 높아짐.
-- 완성된 설명은 녹음·노트화 — 나중에 복습 자료가 됨.
+### 4. Simplify & refine
+- If still complex, find simpler analogies and examples.
+- Repeat. Multiple rounds of simplification increase the density of understanding.
+- The finished explanation should be recorded/noted — it becomes review material later.
 
-## 왜 작동하나
+## Why It Works
 
-- **얼버무림 탐지** — 읽을 땐 "안다" 느낌, 말할 때 구멍이 드러남. Illusion of competence 깨짐.
-- **능동 인출** — 설명은 고강도 인출(→ `active-recall`).
-- **재구조화** — 남에게 설명하려면 순서·인과·예시를 재구성해야 함. 이 과정이 깊은 처리.
-- **피드백 루프** — 막히면 즉시 출처로. 학습이 표적화됨.
+- **Hand-waving detection** — reading gives a "I know" feeling; speaking exposes gaps. The illusion of competence is broken.
+- **Active retrieval** — explanation is high-intensity retrieval (→ `active-recall`).
+- **Restructuring** — to explain to someone, you must reconstruct order, causality, and examples. This process is deep processing.
+- **Feedback loop** — when stuck, immediately return to source. Learning becomes targeted.
 
-## 언제 쓰나
+## When to Use
 
-- 개념 이해가 핵심인 학습 (수학·물리·경제·프로그래밍 개념·의학 기전)
-- "알 것 같은데 설명 못 함" 증상
-- 시험 전 고난도 개념 최종 점검
-- 발표·강의·글 준비 전 자기 점검
-- 책·논문 완독 후 이해 검증
+- Learning where conceptual understanding is central (math, physics, economics, programming concepts, medical mechanisms)
+- "I think I know it but can't explain it" symptom
+- Final check of high-difficulty concepts before exams
+- Self-check before presentations, lectures, or writing
+- Verifying understanding after finishing a book or paper
 
-## 실전 팁
+## Practical Tips
 
-### 가짜 청중 활용
-- 실제 12세 아이·비전공자 친구·직장 비기술 동료를 *상상*.
-- "이걸 부모님께 설명하면?"
-- 가능하면 실제 사람에게 해볼 것. 실제 반응이 가장 강한 피드백.
+### Use a Fake Audience
+- *Imagine* a real 12-year-old child, a non-specialist friend, or a non-technical workplace colleague.
+- "How would I explain this to my parents?"
+- If possible, try it with an actual person. Real reactions are the strongest feedback.
 
-### 녹음·영상 활용
-- 혼자 소리내 설명하면 얼버무림이 청각으로 드러남.
-- 영상은 부끄러워 다시 보기 어렵지만 효과 최고. 보지 않아도 녹화 행위 자체가 긴장감을 만듦.
+### Use Recording / Video
+- Explaining out loud alone reveals hand-waving through hearing.
+- Video is hard to rewatch out of embarrassment but is most effective. Even without watching, the act of recording itself creates tension.
 
-### 구조화된 단순화
-- 한 번에 단순화 안 되면 3단 구조 시도:
-  1. "이것은 X이다" (정의)
-  2. "왜 필요한가" (문제)
-  3. "어떻게 작동하나" (메커니즘)
-  4. "예시 하나" (구체)
+### Structured Simplification
+- If you can't simplify in one pass, try a 3-tier structure:
+  1. "This is X" (definition)
+  2. "Why is it needed" (problem)
+  3. "How does it work" (mechanism)
+  4. "One example" (concrete)
 
-### 시간 제한
-- 한 주제당 25분(→ `pomodoro-and-focus`) 1세션. 완벽 말고 드러내기.
+### Time Limit
+- One 25-minute session per topic (→ `pomodoro-and-focus`). Not perfection, but exposure.
 
-### AI를 피드백 채널로 쓰기
+### Using AI as a Feedback Channel
 
-실제 12세 친구·비전공자 동료를 매번 동원하기 어려울 때 AI(ChatGPT·Claude·Gemini 등)를 **훈련된 가짜 청중**으로 사용할 수 있다. 단 "AI에게 설명을 써달라"가 아니라 **"AI에게 자기 설명을 검증받는다"**가 핵심.
+When mobilizing actual 12-year-old friends or non-specialist colleagues every time is difficult, you can use AI (ChatGPT, Claude, Gemini, etc.) as a **trained fake audience**. But the key is not "ask AI to write the explanation" but **"have AI verify your own explanation."**
 
-**워크플로 A — 청중 시뮬레이션**
-1. AI에 역할 부여: "너는 이 주제를 전혀 모르는 12세 학생이다. 내가 설명할 때마다 이해 안 되는 부분만 질문해라. 격려 말고 구멍만 지적해라."
-2. 자기 설명을 그대로 복붙.
-3. AI의 질문 리스트 = 바로 "얼버무린 지점". 그 부분만 원자료 복귀.
-4. 2차 설명을 붙여넣고 반복.
+**Workflow A — Audience Simulation**
+1. Assign the AI a role: "You are a 12-year-old student who knows nothing about this topic. Every time I explain, ask questions only about the parts you don't understand. Don't encourage; point out only the gaps."
+2. Paste your explanation as-is.
+3. The AI's list of questions = the "hand-waved points." Return to source material only for those parts.
+4. Paste the second explanation and repeat.
 
-**워크플로 B — 오개념 사냥꾼**
-1. AI에 역할 부여: "너는 이 주제 전문가이고, 아래 설명에서 틀린 개념·부정확한 비유·누락된 전제를 찾아라. 칭찬은 쓰지 말고 오류만 나열해라."
-2. AI는 일반적으로 지나치게 "좋은 설명이에요"라고 반응하므로 **비판 모드를 명시적으로 요청**해야 작동함.
-3. 지적 중 근거 있는 것과 AI 환각을 구분 — 원자료·교과서로 재확인. (AI가 틀리는 경우도 있다는 전제로 사용.)
+**Workflow B — Misconception Hunter**
+1. Assign the AI a role: "You are an expert on this topic. In the explanation below, find incorrect concepts, inaccurate analogies, and missing premises. Don't use praise; list only errors."
+2. The AI generally reacts with "that's a good explanation" excessively, so you must **explicitly request critical mode** for it to work.
+3. Distinguish between grounded criticism and AI hallucination — reconfirm with source material/textbooks. (Use under the premise that AI sometimes gets it wrong.)
 
-**워크플로 C — Dunning-Kruger 방지**
-1. 설명 완료 후 AI에 "이 설명을 듣고 자연스럽게 떠오르는 후속 질문 10개를 만들어라"
-2. 이 10개 중 3개 이상에 즉답 못 하면 이해 깊이 부족 — 해당 범위 재학습.
+**Workflow C — Dunning-Kruger Prevention**
+1. After finishing the explanation, ask the AI: "Generate 10 follow-up questions that naturally arise from hearing this explanation."
+2. If you can't immediately answer 3 or more of these 10, depth of understanding is insufficient — relearn that range.
 
-**주의:**
-- AI는 **사람 청중의 완전한 대체가 아니다.** 진짜 비전공자의 "근데 왜 그래요?" 반복이 여전히 최강. AI는 *항시 가용한 보조 체크 루프*로 위치.
-- AI가 설명을 *대신 써주는* 방향으로 흐르면 generation effect·self-explanation effect 모두 무효. 설명은 반드시 본인이 먼저 쓴다.
-- 도구 브랜드 의존 금지 — 어느 LLM이든 프롬프트 원리는 같음.
+**Cautions:**
+- AI is **not a complete substitute for a human audience.** The repeated "but why is that?" from a real non-specialist is still the strongest. Position AI as an *always-available auxiliary check loop*.
+- If things drift toward AI *writing the explanation for you*, both the generation effect and self-explanation effect become void. The explanation must be written by you first.
+- No tool brand dependence — prompt principles are the same across any LLM.
 
-## 한국 맥락 예시
+## Korean-Context Example
 
-**주제**: "베이지안 업데이트"
+**Topic**: "Bayesian update"
 
-**1차 설명 시도**:
-"사전확률에 우도 곱하고 정규화하면 사후확률... 음, 정규화가 뭐였지?"
-→ 구멍 발견: 분모(marginal likelihood)의 의미를 설명 못 함.
+**First explanation attempt**:
+"Multiply the prior by the likelihood and normalize to get the posterior... um, what was normalization again?"
+→ Gap found: Can't explain the meaning of the denominator (marginal likelihood).
 
-**출처로 복귀** → 교과서의 분모 해석을 다시 읽음.
+**Return to source** → Reread the textbook's interpretation of the denominator.
 
-**2차 설명 (단순화)**:
-"비가 올 확률을 20%라 생각 중이었다(사전). 그런데 하늘이 어둡다(증거). 비 오는 날 하늘이 어두울 확률은 80%, 안 오는 날 어두울 확률은 30%. 그럼 지금 어두운 걸 관측했으니, 비 올 확률을 다시 계산: (0.2 × 0.8) / (0.2 × 0.8 + 0.8 × 0.3) ≈ 40%. 내 믿음이 20% → 40%로 갱신된 것."
+**Second explanation (simplified)**:
+"I was thinking the probability of rain is 20% (prior). But the sky is dark (evidence). The probability that the sky is dark on rainy days is 80%, and on non-rainy days is 30%. So having observed it's dark now, recalculate the probability of rain: (0.2 × 0.8) / (0.2 × 0.8 + 0.8 × 0.3) ≈ 40%. My belief has been updated from 20% → 40%."
 
-→ 숫자·예시·자기 언어로 재구성됨. 분모는 "어두울 가능성 총합"으로 이해.
+→ Reconstructed with numbers, examples, and own language. The denominator is understood as "total possibility of darkness."
 
-## 안티패턴
+## Anti-Patterns
 
-- **"이해한 척" 설명** — 전문용어로 덮어쓴 설명. 막힘을 숨기는 것. Feynman의 정반대.
-- **교과서 문장 복붙** — 외운 문장 말하기. 자기 언어 원칙 위반.
-- **듣는 사람이 없다고 건너뜀** — 진짜 혹은 가상 청중이 있어야 얼버무림이 드러남.
-- **한 번에 완벽** — 1차 설명은 엉성한 게 정상. 반복·정제가 핵심.
-- **ELI5 과장** — 진짜 5세에게 전문 개념 설명하려 하면 왜곡 발생. 12세·비전공자 기준이 실용적.
-- **깊이 없는 비유** — 비유가 원 개념과 다른 구조면 오해 유발. "전자는 행성 궤도" 같은 고전적 오해.
+- **"Pretending to understand" explanation** — explanation covered up with jargon. Hiding the blocks. The exact opposite of Feynman.
+- **Textbook sentence copy-paste** — reciting memorized sentences. Violates the own-language principle.
+- **Skipping because no listener** — a real or imagined audience must be present for hand-waving to emerge.
+- **Perfection in one pass** — the first explanation is normally messy. Repetition and refinement are the core.
+- **ELI5 exaggeration** — trying to explain specialist concepts to an actual 5-year-old causes distortion. The 12-year-old / non-specialist standard is practical.
+- **Analogies without depth** — if the analogy has a different structure than the original concept, it induces misunderstanding. Classical misunderstandings like "electrons are in planetary orbits."
 
-## 한계
+## Limitations
 
-1. **사실 암기엔 부적합** — 연도·용어·공식은 SRS가 효율적. Feynman은 *이해* 도구.
-2. **절차적 스킬엔 부분적** — 자전거 타기 설명해도 타는 법 학습 안 됨. 스킬은 `deliberate-practice`.
-3. **얕은 이해를 깊은 이해로 착각** — 설명이 매끄러워도 Dunning-Kruger. 전문가 검토가 필요.
-4. **혼자만 하면 되먹임 없음** — 실제 청중·튜터의 질문이 가장 강한 신호.
-5. **주제 선택 편향** — 자기가 *설명하기 쉬운* 것만 고르는 경향. 어려운 개념을 의도적으로 고르는 훈련 필요.
-6. **피곤함** — 고강도 인지 활동. 한 세션 25~40분이 한계.
+1. **Unsuitable for factual memorization** — years, terms, and formulas are more efficiently handled by SRS. Feynman is an *understanding* tool.
+2. **Partial for procedural skills** — explaining how to ride a bicycle doesn't teach how to ride one. Skills belong to `deliberate-practice`.
+3. **Mistaking shallow understanding for deep understanding** — smooth explanation can still be Dunning-Kruger. Expert review is needed.
+4. **No feedback when done alone** — questions from a real audience or tutor are the strongest signal.
+5. **Topic selection bias** — tendency to choose only what's *easy to explain*. Training to deliberately choose difficult concepts is needed.
+6. **Fatigue** — high-intensity cognitive activity. 25~40 minutes per session is the limit.
 
-## 이 프레임워크와 함께 쓰는 것들
+## What to Use Alongside This Framework
 
-- **active-recall** — Feynman = 고난도 free recall. 같은 가족.
-- **zettelkasten / evergreen-notes** — permanent note 쓰기 자체가 Feynman 과정. 산출물이 남음.
-- **metalearning** — Scott Young *Ultralearning* 프로젝트의 표준 도구.
-- **spaced-repetition** — Feynman으로 이해한 후 핵심 주장을 카드로.
-- **deliberate-practice** — 설명 자체를 반복 연습하면 teaching skill 자체가 개선.
+- **active-recall** — Feynman = high-difficulty free recall. Same family.
+- **zettelkasten / evergreen-notes** — writing a permanent note is itself a Feynman process. Output remains.
+- **metalearning** — the standard tool of Scott Young's *Ultralearning* projects.
+- **spaced-repetition** — after understanding via Feynman, turn core claims into cards.
+- **deliberate-practice** — if you repeatedly practice the act of explaining itself, the teaching skill itself improves.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 사실 암기 → `spaced-repetition`
-- 운동·악기·연주·코딩 실행 → `deliberate-practice`
-- 집중 자체가 안 됨 → `deep-work` / `pomodoro-and-focus`
-- 조직·정리가 문제 → `second-brain-para`
+- Factual memorization → `spaced-repetition`
+- Sports, instruments, performance, coding execution → `deliberate-practice`
+- Can't focus in the first place → `deep-work` / `pomodoro-and-focus`
+- Organization/arrangement is the problem → `second-brain-para`
 
-## 추가 학습
+## Further Reading
 
 - Chi, M. T. H. et al. (1994). "Eliciting self-explanations improves understanding." *Cognitive Science.*
 - Chase, C. C. et al. (2009). "Teachable agents and the protégé effect." *Journal of Science Education and Technology.*
-- Young, S. (2019). *Ultralearning.* (Feynman technique를 프로젝트 단위로 응용)
-- Gleick, J. (1992). *Genius: The Life and Science of Richard Feynman.* (인물 배경)
-- "The Feynman Technique" — *Farnam Street* 블로그 (대중 정리, 단 4단계 공식화는 후대의 것임을 유의)
+- Young, S. (2019). *Ultralearning.* (Applies the Feynman technique at project scale)
+- Gleick, J. (1992). *Genius: The Life and Science of Richard Feynman.* (Biographical background)
+- "The Feynman Technique" — *Farnam Street* blog (popular summary, but note the 4-step formulation is a later addition)

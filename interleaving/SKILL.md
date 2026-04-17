@@ -1,121 +1,121 @@
 ---
 name: interleaving
 version: "0.1.0"
-description: "Interleaving — 여러 주제·문제 유형을 섞어 학습. 블록 반복 대비 단기 수행 ↓ 장기 유지·전이 ↑. Bjork의 desirable difficulty. 수학 문제 유형·스포츠 기술·언어 훈련에서 효과 실증."
+description: "Interleaving — mixing multiple topics and problem types during study. Compared to blocked repetition, short-term performance ↓ but long-term retention and transfer ↑. Bjork's desirable difficulty. Effectiveness demonstrated in math problem types, sports skills, and language training."
 ---
 
 # Interleaving
 
-## 레이어 위치
+## Layer Position
 
-**L5 (전이)** — deliberate-practice와 같은 층. L4(인출)을 *여러 맥락*에서 반복함으로써 실전 전이를 높임. L3 이해가 어느 정도 형성된 이후 투입(완전 초보엔 블록이 효율적).
+**L5 (Transfer)** — same layer as deliberate-practice. Raises real-world transfer by repeating L4 (retrieval) across *multiple contexts*. Deployed after L3 understanding is somewhat established (blocking is more efficient for complete beginners).
 
-## 한 줄 요약
+## One-Line Summary
 
-**같은 유형을 몰아서(블록) 풀지 말고, 여러 유형을 섞어라.** 학습 중엔 느리고 불편하지만, 시험·실전에서의 *전이*는 크게 올라간다.
+**Don't cram one type all at once (blocked); mix multiple types.** It feels slow and uncomfortable during learning, but *transfer* to exams and real situations rises substantially.
 
-## 이론·연구 기원
+## Theoretical and Research Origins
 
-- **Robert A. Bjork** — UCLA 심리학자. "Desirable difficulty" 개념의 중심.
-- **Shea & Morgan (1979)** — 운동 학습 실험. 세 가지 바 knock-down 과제. 블록 vs 랜덤 순서 조건:
-  - 학습 중 수행: 블록 > 랜덤 (랜덤이 더 어려움)
-  - 10일 뒤 유지 테스트: **랜덤 > 블록** — 정반대.
-- **Rohrer & Taylor (2007)** — 수학 문제 (부피 공식 4가지) 학습. 블록(각 유형 몰아 풀기) vs 인터리브. 학습 직후엔 블록이 유리해 보이지만(블록 89% vs 인터리브 60%), **1주 뒤 시험에선 정반대로 역전(블록 20% vs 인터리브 63%)** — 약 3배 차이.
-- **Kornell & Bjork (2008)** — 화가 화풍 식별 학습. 학생들은 블록이 더 도움된다고 *믿었지만* 인터리브 그룹이 새 그림 분류에서 유의미하게 우수.
-- 메타 리뷰: **Brunmair & Richter (2019)** — 인터리빙 효과 전반적으로 유의미하지만 분야별 편차 있음.
+- **Robert A. Bjork** — UCLA psychologist. Central figure behind the "desirable difficulty" concept.
+- **Shea & Morgan (1979)** — Motor learning experiment. Three bar knock-down tasks. Blocked vs. random-order conditions:
+  - Performance during learning: blocked > random (random is harder)
+  - Retention test 10 days later: **random > blocked** — exact opposite.
+- **Rohrer & Taylor (2007)** — Math problem learning (four volume formulas). Blocked (each type practiced in a cluster) vs. interleaved. Blocked looks superior immediately after study (blocked 89% vs. interleaved 60%), but **on a test one week later the result reverses (blocked 20% vs. interleaved 63%)** — roughly a threefold gap.
+- **Kornell & Bjork (2008)** — Learning to identify painters' styles. Students *believed* blocking helped more, but the interleaved group was significantly better at classifying new paintings.
+- Meta-review: **Brunmair & Richter (2019)** — Interleaving effects are broadly significant but vary by domain.
 
-## 왜 작동하나
+## Why It Works
 
-### 1. 판별 강화 (discriminative contrast)
-- 여러 유형이 섞이면 *각 유형의 특징*을 구별해야 함. 블록 학습은 "방금 본 것과 같음"이 기본 가정.
-- 예: 원기둥·원뿔·구·직육면체 부피를 섞어 풀면 "이건 어떤 도형이지?"를 매번 판단 → 도형 식별 + 공식 선택 학습.
+### 1. Discriminative contrast
+- When multiple types are mixed, you must distinguish the *features of each type*. Blocked learning carries the default assumption, "same as the one I just saw."
+- Example: If you mix volume problems for cylinders, cones, spheres, and rectangular prisms, you must judge "which shape is this?" every time → learning both shape identification and formula selection.
 
-### 2. 인출 단서 다양화
-- 같은 개념을 여러 맥락에서 꺼내면 인출 경로가 다양해짐.
-- 시험장 = 새로운 맥락. 전이에 유리.
+### 2. Diversified retrieval cues
+- Retrieving the same concept across multiple contexts creates diverse retrieval paths.
+- The exam room = a new context. This favors transfer.
 
-### 3. 망각·재인출 사이클
-- 한 유형을 풀고 다른 유형으로 넘어가면 원래 유형은 약간 잊힘.
-- 다시 돌아왔을 때 인출 노력 ↑ → 기억 강화 (→ `spaced-repetition`·`active-recall`과 같은 메커니즘).
+### 3. Forgetting and re-retrieval cycle
+- After solving one type and moving to another, the original type is slightly forgotten.
+- When you return to it, retrieval effort ↑ → memory strengthens (→ same mechanism as `spaced-repetition` and `active-recall`).
 
-## 언제 쓰나
+## When to Use
 
-- **수학·물리 문제 유형** — 응용 시험에서 유형 식별이 핵심일 때
-- **분류·진단** 훈련 — 의학 증상·식물·예술 양식·법률 사례 구별
-- **운동·악기 기술** — 여러 동작·패턴 연습
-- **언어 학습** — 문법·어휘를 섞어
-- **코딩 문제 풀이** — 알고리즘 유형 섞기
-- 이미 어느 정도 기본기가 있을 때 (완전 초보엔 부적합)
+- **Math and physics problem types** — when type identification is central on application exams
+- **Classification and diagnosis** training — distinguishing medical symptoms, plants, artistic styles, legal cases
+- **Sports and instrument skills** — practicing multiple movements and patterns
+- **Language learning** — mixing grammar and vocabulary
+- **Coding problem practice** — mixing algorithm types
+- When some baseline fundamentals are already in place (not suitable for complete beginners)
 
-## 실전 적용
+## Practical Application
 
-### 블록 → 인터리브 전환 원칙
-- **도입 단계**: 블록으로 기본 형태 학습 (이건 정상)
-- **숙달 단계**: 인터리브로 전환 — 이 전환이 핵심
-- 많은 학습자가 블록에 머무름. 문제지도 유형별 정리되어 있어서.
+### Blocked → Interleaved transition principle
+- **Introduction stage**: learn the basic form via blocking (this is normal)
+- **Mastery stage**: switch to interleaving — this switch is the critical move
+- Many learners stay stuck in blocked mode because problem sets are organized by type.
 
-### 문제 세트 재구성
-- 교재가 챕터별로 나오면 *챕터를 섞음*. 예: 2장 3문제 + 5장 3문제 + 1장 2문제를 한 세트.
-- 시중 시험 문제집이 "단원 종합" 섹션을 주는 이유.
+### Restructuring problem sets
+- When a textbook is organized by chapter, *mix chapters*. Example: 3 problems from Ch. 2 + 3 from Ch. 5 + 2 from Ch. 1 as one set.
+- This is why commercial test prep books include "comprehensive review" sections.
 
-### 스페이싱과 결합
-- Interleaving + Spacing은 함께 작동. 여러 주제를 시간 간격 + 섞임으로 순환.
-- SRS는 자연스럽게 둘 다 내장 (카드가 랜덤 순서로 나옴).
+### Combining with spacing
+- Interleaving + spacing work together. Cycle through multiple topics with both time gaps and mixing.
+- SRS naturally embeds both (cards appear in random order).
 
-### 학습자 주관 함정
-- **학습 중 느낌**: "블록이 더 진도 나가고 자신감 생김."
-- **실제 결과**: 인터리브가 시험·실전에서 우수.
-- 주관과 결과가 *반대*라는 것을 알고 있어야 함. 이것이 desirable difficulty의 핵심.
+### The learner's subjective trap
+- **Feeling during study**: "Blocking moves faster and builds confidence."
+- **Actual result**: interleaving performs better on exams and real tasks.
+- You must know that subjective feeling and outcome are *opposite*. This is the core of desirable difficulty.
 
-## 한국 맥락 예시
+## Korean Context Examples
 
-**수능 수학 대비**:
-- 블록 방식: "이차함수 50문제 풀이 → 삼각함수 50문제 → 미분 50문제..."
-- 인터리브 방식: "이차함수 2 + 삼각함수 2 + 미분 2 + 확률 2 + 기하 2 ... 10문제 한 세트"
-- 전자가 풀 땐 빠르지만, 실제 수능은 유형 혼합 상황. 인터리빙이 수능 형태와 일치.
+**Preparing for the CSAT (수능) math section**:
+- Blocked approach: "50 quadratic function problems → 50 trigonometry problems → 50 differentiation problems..."
+- Interleaved approach: "2 quadratic + 2 trigonometry + 2 differentiation + 2 probability + 2 geometry ... 10 problems as one set"
+- The former is faster while solving, but the actual CSAT presents mixed types. Interleaving matches the CSAT format.
 
-**의대 본과 진단학**:
-- 증상별로 몰아 공부하면 패턴 매칭에 의존.
-- 실제 진료는 환자 증상부터 시작. 여러 질환 사례를 섞어 학습 → 감별진단 능력 강화.
+**Medical school clinical diagnosis**:
+- Studying by symptom category encourages dependence on pattern matching.
+- Actual practice starts from patient symptoms. Studying multiple disease cases in mixed fashion → strengthens differential diagnosis skill.
 
-**기타 연습 (음계·스케일 등)**:
-- 한 스케일 30분 반복 vs 5개 스케일 6분씩 순환
-- 후자가 불편하지만 실제 연주 상황(빠른 전환)과 유사.
+**Instrument practice (scales, etc.)**:
+- 30 minutes repeating one scale vs. cycling through 5 scales for 6 minutes each
+- The latter is uncomfortable but resembles real performance situations (rapid transitions).
 
-## 안티패턴
+## Antipatterns
 
-- **완전 초보에 인터리빙** — 기본 절차도 모르는 상태에서 섞으면 혼돈. 최소한의 블록 도입 후 전환.
-- **관련 없는 주제 섞기** — 인터리빙은 *판별해야 할 이유가 있는 주제들* 사이에서 강함. 무관한 과목 섞기는 그냥 산만함.
-- **학습 중 수행 저하로 중단** — "블록이 더 빠르다"는 느낌에 되돌아감. 함정.
-- **복습도 블록으로** — SRS에서 덱을 분리해 하루는 A덱, 다음 날은 B덱 식으로 쓰면 인터리빙 효과 감소.
-- **모든 학습에 인터리빙** — 일부 절차적 기술은 초기 반복이 필요. 언제·어디에 인터리브할지 판단 필요.
+- **Interleaving on complete beginners** — mixing before basic procedures are known causes chaos. Switch only after minimal blocked introduction.
+- **Mixing unrelated topics** — interleaving is strong only among *topics that need to be discriminated*. Mixing unrelated subjects is just distraction.
+- **Quitting because of lower performance during study** — reverting due to the "blocking is faster" feeling. This is the trap.
+- **Blocking reviews too** — in SRS, separating decks so that day 1 is deck A and day 2 is deck B reduces the interleaving effect.
+- **Interleaving everything** — some procedural skills require early repetition. Judgment is needed for when and where to interleave.
 
-## 한계
+## Limitations
 
-1. **초기 학습 단계엔 부적합** — 개념 자체를 처음 배울 때는 블록이 효율적.
-2. **분야·과제 의존** — 메타분석(Brunmair·Richter 2019)에 따르면 수학·카테고리 학습에서 강한 효과, 일부 영역에선 작음.
-3. **주관 저항 큼** — 불편하다는 느낌 때문에 지속이 어려움. 이해하고 있어야 버팀.
-4. **과제 유사도** — 섞는 항목들이 *비슷하되 구별 필요한* 것이어야 효과. 너무 이질적이면 단순 방해.
-5. **시험 형태와 매칭** — 시험이 실제로 혼합 유형일 때 효과 크고, 단원별 분리 시험엔 효과 감소.
+1. **Unsuitable for the initial learning stage** — blocking is efficient when first learning the concept itself.
+2. **Domain- and task-dependent** — according to the meta-analysis (Brunmair & Richter 2019), strong effects in math and category learning, small effects in some domains.
+3. **Strong subjective resistance** — difficult to sustain because it feels uncomfortable. You must understand it to stick with it.
+4. **Task similarity** — mixed items must be *similar yet requiring discrimination* for the effect to hold. Items that are too heterogeneous become mere interference.
+5. **Matching exam format** — the effect is large when the exam itself is mixed-type, and diminishes for unit-separated exams.
 
-## 이 프레임워크와 함께 쓰는 것들
+## What to Use Alongside This Framework
 
-- **active-recall** — 인터리브는 인출을 다양한 맥락에서 반복하게 함. 결합 시 전이 더 강화.
-- **spaced-repetition** — SRS 자체가 카드 순서 랜덤화 → 자연스러운 인터리브. 두 효과 결합.
-- **deliberate-practice** — 운동·음악 연습에서 의도적으로 섞음. Ericsson도 변화하는 맥락 강조.
-- **metalearning** — 학습 계획 설계 단계에서 인터리브 구조를 의식적으로 삽입.
+- **active-recall** — interleaving repeats retrieval across diverse contexts. Combining the two further strengthens transfer.
+- **spaced-repetition** — SRS itself randomizes card order → natural interleaving. Combines both effects.
+- **deliberate-practice** — intentional mixing in sports and music practice. Ericsson also emphasized varying contexts.
+- **metalearning** — consciously build interleaved structure in during study-plan design.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 완전 초보 단계 → 블록으로 기본기 확립 후
-- 한 가지 깊이 있는 탐구 → `deliberate-practice` (집중 반복 필요 국면)
-- 개념 자체가 약함 → `feynman-technique`
-- 정보 유지 문제 → `spaced-repetition`
+- Complete-beginner stage → only after establishing fundamentals via blocking
+- Deep inquiry into a single topic → `deliberate-practice` (phases requiring concentrated repetition)
+- Weakness in the concept itself → `feynman-technique`
+- Information retention problem → `spaced-repetition`
 
-## 추가 학습
+## Further Reading
 
 - Shea, J. B. & Morgan, R. L. (1979). "Contextual interference effects on the acquisition, retention, and transfer of a motor skill." *Journal of Experimental Psychology.*
 - Rohrer, D. & Taylor, K. (2007). "The shuffling of mathematics problems improves learning." *Instructional Science.*
 - Kornell, N. & Bjork, R. A. (2008). "Learning concepts and categories: Is spacing the 'enemy of induction'?" *Psychological Science.*
 - Brunmair, M. & Richter, T. (2019). "Similarity matters: A meta-analysis of interleaved learning and its moderators." *Psychological Bulletin.*
-- Bjork, R. A. & Bjork, E. L. "A new theory of disuse." (Desirable difficulty 이론)
+- Bjork, R. A. & Bjork, E. L. "A new theory of disuse." (Desirable difficulty theory)

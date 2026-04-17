@@ -1,134 +1,134 @@
 ---
 name: chunking
 version: "0.1.0"
-description: "Chunking — Miller 7±2 단기기억 제약, 전문가의 청크 지각, 학습 설계의 청크 크기 조정. 무의미 개별 항목 → 의미 있는 청크 = 처리 용량 확장. 전문성의 핵심 표상 단위."
+description: "Chunking — Miller's 7±2 short-term memory constraint, expert chunk perception, and chunk-size calibration in learning design. Meaningless individual items → meaningful chunks = expanded processing capacity. The core representational unit of expertise."
 ---
 
 # Chunking
 
-## 레이어 위치
+## Layer Position
 
-**L3 (이해·표상)** — feynman-technique와 함께 이해 층. 개별 요소 → 의미 단위 → 상위 스키마. L4(인출)·L5(전이)의 질을 결정하는 표상 단위.
+**L3 (Understanding · Representation)** — alongside feynman-technique in the understanding layer. Individual elements → meaning units → higher-order schemas. The representational unit that determines the quality of L4 (retrieval) and L5 (transfer).
 
-## 한 줄 요약
+## One-Line Summary
 
-**인간의 작업 기억은 작다**(~7±2 항목). 하지만 *의미 있는 묶음(청크)* 으로 조직하면 한 "항목"이 풍부한 정보 덩어리가 된다. 전문가와 초보자를 가르는 표상 차이가 바로 이것.
+**Human working memory is small** (~7±2 items). But when organized into *meaningful bundles (chunks)*, a single "item" becomes a rich informational package. This is precisely the representational difference that separates experts from novices.
 
-## 이론·연구 기원
+## Theoretical / Research Origins
 
-- **George A. Miller (1956)** — "The Magical Number Seven, Plus or Minus Two." *Psychological Review.* 작업 기억 제한 7±2 제안. 단 Miller 자신이 "정확한 수가 중요한 게 아니라 *유한*하다는 사실이 중요"라고 경고.
-- **Nelson Cowan (2001)** — *Behavioral and Brain Sciences.* 재분석 결과 실제 용량은 **4±1** 청크에 가깝다고 제안. 현재 학계 주류.
-- **Chase & Simon (1973)** — 체스 전문가 vs 초보자 실험. 실제 대국 국면은 전문가가 압도적으로 잘 기억, 무작위로 배치한 말은 *차이가 크게 줄어듦*(후속 연구에선 약간의 우위는 남음). 결론: 전문가의 우위는 일반 기억력이 아닌 *청크 기반 패턴 지각*에서 비롯.
-- **Gobet & Simon (1996)** — 전문 체스 선수는 ~50,000개 수준의 청크를 장기기억에 보유한다고 추정 (template theory).
-- **Ericsson & Chase (1982)** — 일반인도 훈련으로 숫자 기억 용량을 7에서 80+까지 확장 (SF 피험자). 단 그 훈련은 해당 도메인에 한정.
+- **George A. Miller (1956)** — "The Magical Number Seven, Plus or Minus Two." *Psychological Review.* Proposed the 7±2 working memory limit. However, Miller himself warned that "the exact number is not what matters — what matters is that it is *finite*."
+- **Nelson Cowan (2001)** — *Behavioral and Brain Sciences.* Reanalysis suggested the actual capacity is closer to **4±1** chunks. The current academic mainstream view.
+- **Chase & Simon (1973)** — Chess expert vs. novice experiments. Experts overwhelmingly outperformed on real game positions, but the gap *shrank dramatically* with randomly arranged pieces (though follow-up research showed some slight advantage remained). Conclusion: expert superiority derives not from general memory but from *chunk-based pattern perception*.
+- **Gobet & Simon (1996)** — Estimated that expert chess players hold roughly 50,000 chunks in long-term memory (template theory).
+- **Ericsson & Chase (1982)** — Even ordinary people, through training, expanded digit-memory capacity from 7 to 80+ (subject SF). However, such training is confined to the specific domain.
 
-## 핵심 개념
+## Core Concepts
 
-### 1. 작업 기억(working memory)
-- 의식적으로 다룰 수 있는 정보의 *한 번 용량*. 새 정보 처리·학습의 병목.
-- 7±2(항목) 또는 4±1(청크) — 수치보다 *유한*이 핵심.
-- 피로·스트레스·수면 부족에 취약.
+### 1. Working Memory
+- The *one-shot capacity* of information that can be consciously handled. The bottleneck for processing and learning new information.
+- 7±2 (items) or 4±1 (chunks) — *finiteness* matters more than the number.
+- Vulnerable to fatigue, stress, and sleep deprivation.
 
-### 2. 청크(chunk)
-- *의미를 가진 단위*. 예:
-  - 무의미 숫자 `1-9-4-5-0-6-2-5`(8개 항목)
-  - 청크화 `1945`(한국 광복) + `0625`(한국 전쟁) (2개 청크)
-- 같은 정보, 다른 표상. 용량이 4배 확장.
+### 2. Chunk
+- *A unit with meaning*. Examples:
+  - Meaningless digits `1-9-4-5-0-6-2-5` (8 items)
+  - Chunked `1945` (Korean Liberation) + `0625` (Korean War) (2 chunks)
+- Same information, different representation. Capacity expanded 4×.
 
-### 3. 전문가 지각
-- 초보자: 개별 요소 (체스 말 하나, 코드 한 줄, 환자 증상 하나)
-- 전문가: 패턴·스키마 (이 국면은 'Ruy Lopez 오픈닝', 이 코드는 '싱글톤 패턴', 이 증상군은 '심부전')
-- 전문가는 *지각 단계에서 이미* 청크로 봄. 추론 전 단계.
+### 3. Expert Perception
+- Novice: individual elements (a single chess piece, a single line of code, a single patient symptom)
+- Expert: patterns and schemas (this position is the 'Ruy Lopez opening,' this code is the 'Singleton pattern,' this symptom cluster is 'heart failure')
+- Experts *already see in chunks at the perceptual stage*. Pre-inference.
 
-### 4. 장기기억 오프로딩
-- 청크는 장기기억에 저장된 *템플릿*. 작업기억이 참조.
-- 학습 = 새 템플릿을 장기기억에 만드는 과정 + 인출 속도 올리기.
+### 4. Long-Term Memory Offloading
+- Chunks are *templates* stored in long-term memory. Working memory references them.
+- Learning = the process of building new templates in long-term memory + raising retrieval speed.
 
-### 5. 인지 부하 이론(Sweller)
-- 내재적 부하(과제 본질적 복잡도) + 외재적 부하(불필요한 요소) + 본질적 부하(스키마 형성에 쓰는 인지)
-- 학습 설계는 외재적 부하 감소 + 본질적 부하 지원.
+### 5. Cognitive Load Theory (Sweller)
+- Intrinsic load (essential complexity of the task) + extraneous load (unnecessary elements) + germane load (cognition spent on schema formation)
+- Learning design reduces extraneous load + supports germane load.
 
-## 언제 쓰나
+## When to Use
 
-- **복잡 주제 입문** — 청크 단위로 쪼개 점진 구축
-- **새 분야 습득** — 전문가의 청크를 역공학
-- **학습 자료·강의 설계**
-- **기억 훈련** (숫자·단어·카드)
-- **코드·수식·악보** 해석 훈련
+- **Entering a complex topic** — split into chunks and build progressively
+- **Acquiring a new field** — reverse-engineer the expert's chunks
+- **Designing learning materials / lectures**
+- **Memory training** (digits, words, cards)
+- **Interpretation training for code, formulas, sheet music**
 
-## 실전 적용
+## Practical Application
 
-### 1. 학습자 입장: 청크 구축
-- 새 주제를 만나면 *원소 → 청크 → 상위 청크*로 계층 쌓기.
-- 예: 프로그래밍 학습
-  - Level 1 원소: 변수·함수·조건문
-  - Level 2 청크: 반복문 패턴·에러 처리
-  - Level 3 청크: 디자인 패턴(Observer, Factory)
-  - Level 4 청크: 아키텍처 패턴(MVC, Event Sourcing)
-- 상위 청크는 하위를 품음. 한 번에 한 층만 확장.
+### 1. Learner Perspective: Chunk Construction
+- When encountering a new topic, build the hierarchy *elements → chunks → higher-order chunks*.
+- Example: Learning programming
+  - Level 1 elements: variables, functions, conditionals
+  - Level 2 chunks: loop patterns, error handling
+  - Level 3 chunks: design patterns (Observer, Factory)
+  - Level 4 chunks: architecture patterns (MVC, Event Sourcing)
+- Higher-order chunks contain lower ones. Expand only one layer at a time.
 
-### 2. 전문가 청크 역공학
-- 해당 분야 전문가가 어떤 단위로 지각하는지 관찰.
-- "이 국면을 어떻게 보시나요?"라고 물어보면 청크 명명이 드러남.
-- 교과서 목차는 종종 청크 계층의 힌트.
+### 2. Reverse-Engineering Expert Chunks
+- Observe which units experts in the field perceive in.
+- Asking "How do you see this position?" reveals chunk naming.
+- Textbook tables of contents often hint at the chunk hierarchy.
 
-### 3. 설계자 입장: 청크 크기 조정
-- 한 번에 제시할 새 요소 수를 4~5 이하로.
-- 예시·연습·설명을 청크 단위로 끊음.
-- 이전 청크 숙달 후 다음 청크 도입 ("scaffolding").
+### 3. Designer Perspective: Chunk-Size Calibration
+- Keep new elements presented at once to 4–5 or fewer.
+- Break examples, exercises, and explanations by chunk.
+- Introduce the next chunk only after mastering the previous one ("scaffolding").
 
-### 4. 연습 통합
-- 개별 청크 숙달 → 청크 결합 연습 → 유동적 실행.
-- "부분 → 전체" 훈련 순서는 대체로 효과적이나, 아주 복잡한 스킬은 *처음부터 맥락 속에서*가 나을 수 있음(Whole-Part-Whole).
+### 4. Integrating Practice
+- Master individual chunks → practice combining chunks → fluid execution.
+- The "part → whole" training order is generally effective, but for highly complex skills, *starting within context from the beginning* may be better (Whole-Part-Whole).
 
-### 5. 기호·표기 개발
-- 나만의 약어·아이콘·다이어그램으로 청크를 외재화.
-- 노트의 제목·서식이 청크 경계를 표시.
+### 5. Developing Notation
+- Externalize chunks with personal abbreviations, icons, and diagrams.
+- Note headings and formatting mark chunk boundaries.
 
-## 한국 맥락 예시
+## Korean Context Examples
 
-**한국사 연도 암기**:
-- 무청크: "1592 1598 1623 1636 1645 1876 1894 1905 1910 1945 1948 1950 1953 1960..."
-- 청크화: "임란(1592~1598) → 인조반정(1623) → 병자호란(1636) → 개항(1876) → 갑오개혁(1894) → 을사늑약(1905) → 경술국치(1910) → 광복(1945) → 정부수립(1948) → 6·25(1950~1953) → 4·19(1960)..."
-- 청크는 *사건명*. 4~5 청크 단위로 묶어 상위 서사(조선 후기 / 개화기 / 일제강점 / 현대)
+**Memorizing Korean history dates**:
+- Un-chunked: "1592 1598 1623 1636 1645 1876 1894 1905 1910 1945 1948 1950 1953 1960..."
+- Chunked: "Imjin War (1592–1598) → Injo Restoration (1623) → Byeongja War (1636) → Port Opening (1876) → Gabo Reform (1894) → Eulsa Treaty (1905) → Japanese Annexation (1910) → Liberation (1945) → Government Established (1948) → 6·25 (1950–1953) → 4·19 (1960)..."
+- Chunks are *event names*. Bundle 4–5 chunks into higher-order narratives (Late Joseon / Enlightenment Era / Japanese Occupation / Modern).
 
-**한의학 본초 암기**:
-- 300여 개 약재 무작정 = 불가능
-- 효능군으로 청크화: 해표약·청열약·사하약·거풍약... 각 군 안에서 다시 세부.
-- 전문가는 "이 증상 → 어느 군 → 어떤 약재" 3단 추론.
+**Memorizing herbal medicine (本草)**:
+- Brute-forcing 300+ medicinal herbs = impossible
+- Chunk by efficacy groups: exterior-releasing herbs, heat-clearing herbs, purgatives, wind-expelling herbs... and further subdivide within each group.
+- Experts reason in three tiers: "this symptom → which group → which herb."
 
-## 안티패턴
+## Antipatterns
 
-- **숫자 7에 집착** — Miller 자신도 수치보다 *유한함* 강조. 최신 연구는 4±1.
-- **청크 없이 한번에** — 강의·교재가 한 번에 20개 새 요소 던지면 학습 불가. 외재 부하 누적.
-- **청크만 외우고 내부 모름** — 용어만 아는 상태. 청크 내부 요소로 내려가 검증 필요(Feynman).
-- **타 분야 청크 이식** — 한 분야의 청크는 그 분야에서만 유효. 체스 전문가가 바둑 국면을 청크 지각하지 못함 (Chase & Simon).
-- **학습 속도 자랑** — "하루 100단어"는 외재 부하 과잉. 실제 유지율은 낮음.
+- **Obsessing over the number 7** — Miller himself emphasized *finiteness* over the number. The latest research says 4±1.
+- **No chunking, all at once** — If a lecture or textbook dumps 20 new elements at once, learning becomes impossible. Extraneous load accumulates.
+- **Memorizing chunks without knowing their interior** — Knowing only the terminology. Must verify by descending to the elements inside the chunk (Feynman).
+- **Transplanting chunks across fields** — Chunks from one field are valid only in that field. A chess expert cannot chunk-perceive a Go position (Chase & Simon).
+- **Bragging about learning speed** — "100 words per day" is extraneous-load overkill. Actual retention is low.
 
-## 한계
+## Limitations
 
-1. **청크 수치의 과단순화** — Miller 7±2는 Magic이 아님. 맥락·훈련·개인차 큼.
-2. **도메인 의존** — 청크는 그 분야에서 형성. 일반화되지 않음.
-3. **훈련 장기** — 전문가 청크 수천~수만 개는 수년~수십 년 누적.
-4. **의식적 제어 한계** — 청크 형성은 상당 부분 암묵적·무의식적. 설계는 환경을 만들 뿐.
-5. **청크 ≠ 이해** — 패턴 인식만 강하고 메커니즘 모를 수도. 전문성의 일부일 뿐.
+1. **Oversimplification of chunk numbers** — Miller's 7±2 is not Magic. Context, training, and individual differences are large.
+2. **Domain-dependent** — Chunks form within the field. They do not generalize.
+3. **Long training period** — Thousands to tens of thousands of expert chunks accumulate over years or decades.
+4. **Limits of conscious control** — Chunk formation is largely implicit and unconscious. Design only shapes the environment.
+5. **Chunk ≠ Understanding** — One may be strong in pattern recognition but ignorant of mechanisms. Only part of expertise.
 
-## 이 프레임워크와 함께 쓰는 것들
+## What to Use Alongside This Framework
 
-- **deliberate-practice** — 한 청크씩 의식적 연습 → 자동화 → 상위 청크 형성.
-- **spaced-repetition** — 청크를 카드로 만들면 인출 강화.
-- **active-recall** — 청크 단위 인출 훈련.
-- **feynman-technique** — 청크 내부를 풀어 설명할 수 있는가가 이해 검증.
-- **metalearning** — 새 분야 학습 설계 시 청크 구조부터 매핑.
+- **deliberate-practice** — Deliberately practice one chunk at a time → automate → form higher-order chunks.
+- **spaced-repetition** — Turning chunks into cards reinforces retrieval.
+- **active-recall** — Chunk-unit retrieval training.
+- **feynman-technique** — Whether you can explain the interior of a chunk is the verification of understanding.
+- **metalearning** — When designing the learning of a new field, start by mapping the chunk structure.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework *Is Wrong*
 
-- 이해 없이 청크만 외우는 함정 → `feynman-technique`
-- 인출 안 되는 청크 → `active-recall` / `spaced-repetition`
-- 기술 실행 문제 → `deliberate-practice`
-- 집중 문제 → `deep-work` / `pomodoro-and-focus`
+- The trap of memorizing chunks without understanding → `feynman-technique`
+- Chunks that don't retrieve → `active-recall` / `spaced-repetition`
+- Skill execution problems → `deliberate-practice`
+- Focus problems → `deep-work` / `pomodoro-and-focus`
 
-## 추가 학습
+## Further Reading
 
 - Miller, G. A. (1956). "The Magical Number Seven, Plus or Minus Two." *Psychological Review.*
 - Cowan, N. (2001). "The magical number 4 in short-term memory: A reconsideration of mental storage capacity." *Behavioral and Brain Sciences.*

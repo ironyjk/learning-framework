@@ -1,127 +1,127 @@
 ---
 name: second-brain-para
 version: "0.1.0"
-description: "Building a Second Brain — Tiago Forte의 개인 지식 관리 체계. PARA(Projects/Areas/Resources/Archives) 조직 + CODE(Capture/Organize/Distill/Express) 워크플로. 실행 지향·프로젝트 연결이 강점. 정보 과잉·어디에 뭘 저장할지 막막할 때."
+description: "Building a Second Brain — Tiago Forte's personal knowledge management system. PARA (Projects/Areas/Resources/Archives) organization + CODE (Capture/Organize/Distill/Express) workflow. Strong on execution-orientation and project linkage. For when you're drowning in information or stuck on where to put what."
 ---
 
 # Building a Second Brain (PARA + CODE)
 
-## 레이어 위치
+## Layer Position
 
-**L6 (포착·축적·작업 조직)** — Zettelkasten/Evergreen이 *지식 네트워크*라면, PARA는 *작업·파일 조직*. 두 층은 충돌하지 않고 병행 가능. 실행·프로젝트 관리가 병목일 때 우선.
+**L6 (capture · accumulation · work organization)** — If Zettelkasten/Evergreen is a *knowledge network*, PARA is *work · file organization*. The two layers don't conflict and can run in parallel. Prioritize when execution · project management is the bottleneck.
 
-## 한 줄 요약
+## One-Line Summary
 
-노트를 *주제*가 아니라 **실행 가능성(actionability)** 으로 조직하라. 프로젝트에 가까울수록 접근 쉽게, 멀수록 아카이브로. 조직 단위는 PARA, 워크플로는 CODE.
+Organize notes not by *topic* but by **actionability**. Closer to a project → easier access; farther → archive. Organizational unit is PARA, workflow is CODE.
 
-## 이론·실천 기원
+## Theoretical · Practical Origin
 
-- **Tiago Forte** — 전 맥킨지 컨설턴트. 2017년경 온라인 코스 *Building a Second Brain* 시작, 2022년 동명 단행본.
-- 학문적 이론이라기보단 *실무가의 프레임워크*. 근거는 개인·고객 사례 기반이지 통제 실험은 없다.
-- 인접 연구: offloading cognition (Sparrow et al. 2011) — 저장 위치를 아는 것만으로 기억 구조가 바뀜. "Google effect."
+- **Tiago Forte** — former McKinsey consultant. Started the online course *Building a Second Brain* around 2017, published the eponymous book in 2022.
+- Less of an academic theory, more of a *practitioner's framework*. Evidence is based on personal · client cases, not controlled experiments.
+- Adjacent research: offloading cognition (Sparrow et al. 2011) — knowing *where* something is stored changes memory structure. "Google effect."
 
-## 핵심 개념
+## Core Concepts
 
-### 1. PARA — 조직 구조
-모든 정보를 **실행 거리**에 따라 4개로:
+### 1. PARA — Organizational Structure
+All information is sorted into 4 buckets by **distance to action**:
 
-| 범주 | 정의 | 기간 | 예 |
+| Category | Definition | Timeframe | Examples |
 |---|---|---|---|
-| **P**rojects | 마감과 구체 결과물이 있는 작업 | 며칠~몇 달 | "Q3 보고서", "IFAT 여행 준비" |
-| **A**reas | 유지해야 할 영역·역할 | 지속 | 건강·재무·가족·자기 직무 |
-| **R**esources | 관심 주제·참고 자료 | 지속 | 부동산 투자·AI·요리 |
-| **A**rchives | 완료·비활성 | — | 끝난 프로젝트·지난 직무 |
+| **P**rojects | Work with deadlines and concrete deliverables | Days to months | "Q3 report", "IFAT trip prep" |
+| **A**reas | Domains · roles to maintain | Ongoing | Health · finance · family · one's role |
+| **R**esources | Interest topics · reference material | Ongoing | Real estate investing · AI · cooking |
+| **A**rchives | Completed · inactive | — | Finished projects · past roles |
 
-- **Projects**와 **Areas** 구분이 핵심. 프로젝트는 끝난다, 영역은 끝나지 않는다.
-- 한 정보는 *가장 실행 가까운* 범주에 둠. "부동산 자료"여도 지금 갈아타기 프로젝트가 있으면 Projects 안으로.
-- 아카이브는 *지우지 않는다*. 미래 프로젝트에 부활 가능.
+- Distinguishing **Projects** from **Areas** is the key. Projects end; areas don't.
+- A piece of information goes into the category *closest to action*. Even "real estate material" goes into Projects if you have an active move-in project.
+- Archives are *not deleted*. They can be resurrected for future projects.
 
-### 2. CODE — 워크플로
-1. **C**apture — 공명하는 것만 저장. "나중에 쓸 것 같다"는 저장하지 말 것. 공명(resonance)이 필터.
-2. **O**rganize — PARA 중 하나에 분류. 주제 아님, 실행 거리.
-3. **D**istill — 핵심만 추출. 하이라이트 → 요약 → 한 문장. "progressive summarization."
-4. **E**xpress — 결과물로 꺼냄. 글·프레젠테이션·결정. 표현하지 않으면 지식이 아님.
+### 2. CODE — Workflow
+1. **C**apture — save only what resonates. Don't save things that "might be useful later." Resonance is the filter.
+2. **O**rganize — sort into one of PARA. Not by topic, by distance to action.
+3. **D**istill — extract the essence. Highlight → summarize → one sentence. "Progressive summarization."
+4. **E**xpress — bring it out as output. Writing · presentation · decision. If you don't express it, it isn't knowledge.
 
-### 3. Progressive summarization (점진 요약)
-- 1차: 원문 저장
-- 2차: 중요 문장 굵게
-- 3차: 굵은 것 중 핵심에 하이라이트
-- 4차: 필요 시 요약 문단
+### 3. Progressive summarization
+- Pass 1: save the original
+- Pass 2: bold the important sentences
+- Pass 3: highlight the key parts within the bolded
+- Pass 4: summary paragraph if needed
 
-각 차수는 *필요할 때만*. 미리 다 하지 않는다.
+Each pass *only when needed*. Don't do it all upfront.
 
-### 4. Intermediate packets (중간 패킷)
-- 완성품이 아닌 작은 결과물(리서치 요약·슬라이드 한 장·개요) 단위로 축적.
-- 한 번 만든 패킷은 여러 프로젝트에서 재사용.
+### 4. Intermediate packets
+- Accumulate in units of small deliverables (research summaries · single slides · outlines), not finished products.
+- A packet made once can be reused across multiple projects.
 
-## 언제 쓰나
+## When to Use
 
-- 정보가 여러 곳에 흩어져 있고 못 찾을 때
-- 노트 도구는 있는데 *어디에 뭘 둘지* 원칙이 없을 때
-- 여러 프로젝트를 동시에 돌리는 실무자·프리랜서·경영자
-- 클리핑·스크린샷·링크가 쌓이기만 하고 안 쓸 때
+- When information is scattered across locations and you can't find things
+- When you have note tools but no principle for *where to put what*
+- Practitioners · freelancers · executives running multiple projects simultaneously
+- When clippings · screenshots · links keep piling up but never get used
 
-## 실전 적용
+## Practical Application
 
-### PARA 도입 30분 프로토콜
-1. 현재 진행 중 프로젝트 목록 작성 (목표·마감 있는 것만)
-2. Areas 나열 — 역할·책임 단위 (건강·가족·직무·재무)
-3. 기존 노트·파일들을 네 바구니로 이동. 애매하면 Resources.
-4. 완료·지난 것은 모두 Archives로.
-5. 완벽하게 하려 하지 않음. "대충 70% 맞으면 통과."
+### 30-Minute PARA Onboarding Protocol
+1. List currently active projects (only those with goals and deadlines)
+2. List Areas — units of role · responsibility (health · family · role · finance)
+3. Move existing notes · files into the four buckets. When in doubt, Resources.
+4. Move all completed · past items to Archives.
+5. Don't try to be perfect. "Good enough at 70%."
 
-### 원칙
-- **4폴더 룰** — 대부분 도구(Notion·Obsidian·Google Drive·iCloud)에서 동일 4폴더 구조. 여러 도구 쓰면 동일 구조 반복.
-- **프로젝트 종료 시 아카이브** — 매주·매월 정리 리추얼 필요.
-- **Resources는 관심사 단위, 주제 백과가 아님** — 한 번도 안 열어본 자료는 정리 후보.
+### Principles
+- **4-folder rule** — Most tools (Notion · Obsidian · Google Drive · iCloud) use the same 4-folder structure. If you use multiple tools, replicate the same structure.
+- **Archive on project completion** — requires weekly · monthly cleanup rituals.
+- **Resources are by interest, not topic encyclopedia** — material you've never reopened is a cleanup candidate.
 
-## 한국 맥락 예시
+## Korean Context Example
 
-울산 갈아타기 상황:
-- Projects → "울산 갈아타기 (2026 Q2 완료)" — 단지 비교·대출 조건·학군 조사 모두 여기
-- Areas → "가족 주거" (지속) — 장기적 주거 방향성 메모
-- Resources → "부동산 이론" (학계 논문·유튜브 링크)
-- Archives → 이사 완료 후 프로젝트 폴더 통째 이동
+Ulsan move-in situation:
+- Projects → "Ulsan move-in (complete 2026 Q2)" — complex comparisons · loan terms · school district research all go here
+- Areas → "Family housing" (ongoing) — long-term housing direction notes
+- Resources → "Real estate theory" (academic papers · YouTube links)
+- Archives → after move completes, the entire project folder migrates here
 
-CODE 흐름:
-- Capture: 호갱노노 단지 URL·부동산 블로그 글
-- Organize: 프로젝트 폴더로
-- Distill: 10개 단지 표로 압축 → 3개 후보로 축약
-- Express: 부부 미팅용 1쪽 요약·의사결정 문서
+CODE flow:
+- Capture: Hogangnono complex URLs · real estate blog posts
+- Organize: into the project folder
+- Distill: compress 10 complexes into a table → narrow to 3 candidates
+- Express: one-page summary for couple meeting · decision document
 
-## 안티패턴
+## Anti-Patterns
 
-- **주제 트리 파고들기** — "부동산 > 수도권 > 아파트 > 강남..." 5단계 분류는 PARA의 적. 실행 거리로 평탄화.
-- **Capture 강박** — 모든 것을 저장. CODE의 C는 "공명" 필터가 붙음. 거르지 않으면 쓰레기장.
-- **미리 요약** — 쓸지 모를 문서를 4차까지 요약하는 것은 과. Just-in-time 원칙.
-- **완벽한 PARA 재구성** — 처음부터 완벽히 맞추려 하루 소진. 70% 맞으면 통과, 쓰면서 교정.
-- **도구 홍보를 구조로 착각** — Notion·Obsidian·Evernote 무엇이든 PARA 구조는 가능. 도구 바꿔도 구조 유지.
+- **Drilling into topic trees** — "Real estate > Capital area > Apartment > Gangnam..." 5-level classifications are PARA's enemy. Flatten by distance to action.
+- **Capture compulsion** — saving everything. The C in CODE carries a "resonance" filter. Without filtering, it's a junkyard.
+- **Preemptive summarization** — summarizing a document you may never use through all 4 passes is overkill. Just-in-time principle.
+- **Perfect PARA rebuild** — burning a whole day trying to get it perfect from the start. 70% is passing; correct as you go.
+- **Mistaking tool promotion for structure** — PARA structure works in Notion · Obsidian · Evernote — anything. Structure persists even if you switch tools.
 
-## 한계
+## Limitations
 
-1. **지식 *네트워크*에 약함** — PARA는 파일 캐비닛 은유. Zettelkasten식 아이디어 간 *연결*은 약함.
-2. **연구·학술엔 부족** — 실행 지향이라 장기 개념 축적·이론 정리엔 다른 층(Zettel/Evergreen) 필요.
-3. **근거가 실증보다 실무** — Forte의 주장은 사례 기반. 통제 실험 없음.
-4. **"Second Brain" 과장** — 실제 인지 오프로딩 효과는 있지만, "두 번째 뇌" 은유는 마케팅 색채.
-5. **유료 코스 생태계** — 프레임워크 자체는 단순하지만 주변 교육이 상품화됨. 책 한 권이면 충분.
+1. **Weak on knowledge *networks*** — PARA uses a file cabinet metaphor. Zettelkasten-style *connections* between ideas is weak.
+2. **Insufficient for research · academia** — Being execution-oriented, long-term concept accumulation · theory organization requires other layers (Zettel/Evergreen).
+3. **Evidence is practitioner-based rather than empirical** — Forte's claims are case-based. No controlled experiments.
+4. **"Second Brain" overhype** — cognitive offloading effects are real, but the "second brain" metaphor has a marketing flavor.
+5. **Paid course ecosystem** — the framework itself is simple but the surrounding education is commercialized. One book is enough.
 
-## 이 프레임워크와 함께 쓰는 것들
+## Frameworks Used Alongside
 
-- **zettelkasten** — 상호 보완. PARA = 작업·파일 조직, Zettel = 아이디어 네트워크. 두 레이어 겹쳐 쓰는 사람 많음.
-- **evergreen-notes** — 개념 노트를 PARA의 Resources에 두되, 노트 자체 작성 원칙은 Evergreen을 따름.
-- **deep-work** — Express 단계(결과물 생산)는 Deep Work 세션으로.
-- **metalearning** — 새 분야 학습 시 PARA의 Resources에 학습 맵 작성, CODE로 진행 관리.
+- **zettelkasten** — complementary. PARA = work · file organization, Zettel = idea network. Many people layer both.
+- **evergreen-notes** — place concept notes in PARA's Resources, but follow Evergreen principles for writing the notes themselves.
+- **deep-work** — the Express phase (producing deliverables) should be run as Deep Work sessions.
+- **metalearning** — when learning a new field, build a learning map in PARA's Resources and manage progress via CODE.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework is *Wrong*
 
-- 개념 간 연결이 학습 목표 → `zettelkasten` / `evergreen-notes`
-- 기억·시험 준비 → `spaced-repetition` / `active-recall`
-- 이해 자체가 약함 → `feynman-technique`
-- 수집이 문제 아니라 실행·집중이 문제 → `deep-work` / `pomodoro-and-focus`
+- Inter-concept linkage is the learning goal → `zettelkasten` / `evergreen-notes`
+- Memory · exam prep → `spaced-repetition` / `active-recall`
+- Weakness is in understanding itself → `feynman-technique`
+- The problem isn't collection but execution · focus → `deep-work` / `pomodoro-and-focus`
 
-## 추가 학습
+## Further Reading
 
-- Forte, T. (2022). *Building a Second Brain.* (단행본)
-- Forte, T. (2017). "The PARA Method." (블로그 원전)
+- Forte, T. (2022). *Building a Second Brain.* (book)
+- Forte, T. (2017). "The PARA Method." (original blog post)
 - Sparrow, B., Liu, J., & Wegner, D. M. (2011). "Google Effects on Memory." *Science.*
-- Allen, D. (2001). *Getting Things Done.* (PARA의 "Projects" 개념 뿌리)
+- Allen, D. (2001). *Getting Things Done.* (the root of PARA's "Projects" concept)

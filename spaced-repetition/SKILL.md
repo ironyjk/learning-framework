@@ -1,140 +1,140 @@
 ---
 name: spaced-repetition
 version: "0.1.0"
-description: "Spaced Repetition — Ebbinghaus 망각 곡선에서 출발한 간격 반복 학습. SM-2·FSRS 알고리즘. Anki·SuperMemo 계열. 용어·사실·언어 어휘·의학·법학 암기의 가장 강한 도구. 장기 유지 곡선 관리."
+description: "Spaced Repetition — interval-based review learning rooted in Ebbinghaus's forgetting curve. SM-2 and FSRS algorithms. Anki and SuperMemo lineage. The strongest tool for memorizing terminology, facts, language vocabulary, medicine, and law. Managing the long-term retention curve."
 ---
 
 # Spaced Repetition
 
-## 레이어 위치
+## Layer Position
 
-**L4 (인출·유지)** — `active-recall`과 한 몸. SRS = active recall + 최적 간격. L3(이해, feynman-technique)가 선행되지 않으면 비효율(이해 전 카드화 금지).
+**L4 (Retrieval & Retention)** — one body with `active-recall`. SRS = active recall + optimal intervals. Without L3 (understanding, feynman-technique) preceding it, the process is inefficient (do not card-ify before understanding).
 
-## 한 줄 요약
+## One-Line Summary
 
-**막 잊기 직전**에 다시 인출하면, 유지 기간이 지수적으로 늘어난다. 알고리즘이 최적 간격을 계산하고, 사람은 인출만 한다.
+When you retrieve something **just before you're about to forget it**, retention duration grows exponentially. The algorithm computes the optimal interval; the human only performs the retrieval.
 
-## 이론·연구 기원
+## Theoretical & Research Origins
 
-- **Hermann Ebbinghaus (1885)** — *Über das Gedächtnis.* 무의미 음절로 자기 실험. 망각 곡선(forgetting curve) 발견: 학습 직후 급격히 잊고, 이후 완만. 반복 학습 시 곡선이 평탄화됨(saving).
-- **Cecil Alec Mace (1932)** — 간격 두고 복습하는 것의 우위 시사.
-- **Sebastian Leitner (1972)** — *So lernt man lernen*. 종이 카드 박스 시스템. 맞힌 카드는 긴 간격 박스로. (Atkinson 1972는 간격 학습의 독립적 이론 연구)
-- **Piotr Wozniak (1985~)** — SuperMemo. SM-2 알고리즘(1990) 공개 → Anki·Mnemosyne·RemNote의 기본.
-- **FSRS (2022~)** — Free Spaced Repetition Scheduler. 기억 모델(DSR: Difficulty·Stability·Retrievability) 기반, Anki 최신 버전에 통합.
-- 핵심 실증: **spacing effect** — 같은 시간 투자 시, 간격 둔 학습 > 몰아서(massed) 학습 (Cepeda et al. 2006, 184개 실험 정량 메타분석).
+- **Hermann Ebbinghaus (1885)** — *Über das Gedächtnis.* Self-experimentation with nonsense syllables. Discovered the forgetting curve: rapid forgetting immediately after learning, then gradual decay. With repeated study, the curve flattens (saving).
+- **Cecil Alec Mace (1932)** — suggested the advantage of spaced-out review.
+- **Sebastian Leitner (1972)** — *So lernt man lernen*. Paper-card box system. Correctly-answered cards move to boxes with longer intervals. (Atkinson 1972 is an independent theoretical study of spaced learning.)
+- **Piotr Wozniak (1985~)** — SuperMemo. Released the SM-2 algorithm (1990) → the foundation for Anki, Mnemosyne, and RemNote.
+- **FSRS (2022~)** — Free Spaced Repetition Scheduler. Based on a memory model (DSR: Difficulty, Stability, Retrievability), integrated into recent versions of Anki.
+- Core empirical finding: **spacing effect** — for the same time investment, spaced learning > massed learning (Cepeda et al. 2006, a quantitative meta-analysis of 184 experiments).
 
-## 핵심 개념
+## Core Concepts
 
-### 1. 망각 곡선
-- 새로 배운 항목의 기억 확률 R(t)는 시간 t에 따라 감소.
-- 일반적 근사: $R(t) = e^{-t/S}$ (S = stability)
-- 복습 후 S가 증가 → 다음 감소가 완만.
+### 1. Forgetting Curve
+- The probability of remembering a newly learned item, R(t), decreases with time t.
+- Common approximation: $R(t) = e^{-t/S}$ (S = stability)
+- After review, S increases → subsequent decay is more gradual.
 
-### 2. 간격 최적화
-- 너무 일찍 복습: 별 효과 없음(여전히 기억 중).
-- 너무 늦게: 재학습이 됨.
-- **최적 지점: 잊기 "직전"** — 인출 노력이 클 때 S 증가 최대.
-- SM-2: 간격 배수(ease factor) ~2.5, 리콜 실패 시 재시작.
-- FSRS: 각 카드별 고유 S·D 추정, 목표 유지율(예: 90%) 맞춰 간격 계산.
+### 2. Interval Optimization
+- Review too early: little effect (you still remember).
+- Too late: it becomes relearning.
+- **Optimal point: "just before" forgetting** — when retrieval effort is high, the increase in S is maximized.
+- SM-2: interval multiplier (ease factor) ~2.5, restarts on recall failure.
+- FSRS: estimates S and D individually per card and computes intervals to match a target retention rate (e.g., 90%).
 
-### 3. 능동 인출이 조건
-- SRS는 단순 "일정 잡힌 재독"이 아님. 카드 뒷면을 보기 *전에* 답을 말하는 것이 핵심. (→ `active-recall`)
-- 답 보기 → 고민 없이 "쉬움" 누르기는 SRS를 무력화.
+### 3. Active Retrieval Is a Prerequisite
+- SRS is not simply "scheduled rereading." The key is stating the answer *before* looking at the back of the card. (→ `active-recall`)
+- Looking at the answer → pressing "Easy" without effort neutralizes SRS.
 
-### 4. 카드 원자성
-- 한 카드 = 한 사실. "Q: 한국 전쟁 시작 연도? A: 1950"
-- 여러 사실 섞인 카드는 부분 기억을 전체 실패로 만들거나 반대.
-- **Minimum information principle** (Wozniak) — 쪼갤 수 있으면 쪼갠다.
+### 4. Card Atomicity
+- One card = one fact. "Q: What year did the Korean War begin? A: 1950"
+- Cards mixing multiple facts turn partial memory into full failure, or vice versa.
+- **Minimum information principle** (Wozniak) — if it can be split, split it.
 
-## 언제 쓰나
+## When to Use
 
-- **용어·정의·공식·외국어 어휘·연도·분류** 등 사실 암기
-- **의학·법학·자격증** 준비 — 광범위·정확 암기 필수
-- **언어 학습** — 어휘·문법 패턴·한자·단어 구별 (다만 회화·청취엔 부분적)
-- **장기 보존** — 한 번 배우고 수년 유지해야 하는 지식
-- **일회성 벼락치기 반대 목적** — 시험 후 휘발 방지
+- Factual memorization: **terms, definitions, formulas, foreign-language vocabulary, dates, classifications**
+- **Medicine, law, certification exams** — where broad and accurate memorization is essential
+- **Language learning** — vocabulary, grammar patterns, Chinese characters, word discrimination (though only partially effective for conversation and listening)
+- **Long-term retention** — knowledge that must be learned once and maintained for years
+- **The opposite of one-off cramming** — preventing post-exam evaporation
 
-## 실전 적용
+## Practical Application
 
-### 카드 설계 원칙 (Wozniak "20 rules")
-- 최소 정보 원칙: 한 카드 = 한 사실
-- 이해 전엔 카드화 금지: 외우기 전에 이해가 먼저
-- 클로즈(빈칸 채우기) 형식 활용: "{{광합성}}은 빛 에너지를 화학 에너지로 바꾼다"
-- 맥락 포함: 단독 단어보다 짧은 구문·예문
-- 개인화: 자기 경험·이미지 연결
-- 암기용 그림(mnemonic image) 활용 가능
+### Card Design Principles (Wozniak's "20 rules")
+- Minimum information principle: one card = one fact
+- Do not card-ify before understanding: understanding must come before memorization
+- Use cloze (fill-in-the-blank) format: "{{Photosynthesis}} converts light energy into chemical energy"
+- Include context: short phrases or example sentences rather than isolated words
+- Personalize: link to your own experience or imagery
+- Mnemonic images can be used
 
-### 일일 리듬
-- 새 카드 10~20장 / 복습 50~200장 (분야·기간에 따라 조정)
-- 매일 해야 함 — 건너뛰면 누적, 1주일 공백 = 복구 며칠
-- 15~30분 세션 × 매일이 표준
+### Daily Rhythm
+- 10–20 new cards / 50–200 reviews per day (adjust by field and timeframe)
+- Must be done daily — skipping accumulates, a 1-week gap = several days of recovery
+- 15–30 minute sessions × every day is the standard
 
-### 언제 멈추나
-- 해당 주제 학습이 끝나도 복습은 지속 — 이게 핵심 장점
-- 필요 없어진 카드는 suspend·delete. 카드 수 관리도 실력.
+### When to Stop
+- Continue reviewing even after finishing study of the topic — this is the key advantage
+- Suspend or delete cards no longer needed. Managing card count is also a skill.
 
-## 한국 맥락 예시
+## Korean Context Examples
 
-IFAT Munich 2026 박람회 참관 준비 — 독일어 기본 어휘:
-- "Wasseraufbereitung" — 수처리 (앞면: 영어/한글, 뒷면: 독일어)
-- "Anlage" — 설비·플랜트 (예문 포함)
-- 하루 신규 15장, 복습 60장. 3개월이면 1,000 단어 유지.
+Preparing for the IFAT Munich 2026 expo — basic German vocabulary:
+- "Wasseraufbereitung" — water treatment (front: English/Korean, back: German)
+- "Anlage" — facility/plant (with example sentence)
+- 15 new cards/day, 60 reviews/day. In 3 months, you retain 1,000 words.
 
-의대 본과 시험:
-- 해부학 근육별 기시·정지·신경 — 한 근육당 카드 3~4장
-- 약리학 약물 기전 — 약물당 카드 5~10장
-- 누적 8,000~15,000장 관리는 정상 범위. FSRS가 관리 가능.
+Medical school clinical-phase exams:
+- Anatomy, per muscle: origin, insertion, nerve — 3–4 cards per muscle
+- Pharmacology, drug mechanisms — 5–10 cards per drug
+- Managing a cumulative 8,000–15,000 cards is within the normal range. FSRS can handle it.
 
-공무원 시험(9급 국어·한국사·영어):
-- 한국사 연도·인물·사건: 청크 단위 카드 (→ `chunking`). 사건 하나당 연도·인물·배경 3장
-- 영어 어휘: 공무원 빈출 어휘 2,000~3,000 → SRS 6개월 분산
-- 국어 문법: 사실성 있는 규칙(음운 변동 등)은 카드화, 독해는 active recall로 별도
-- 유지 주의: 시험일 지나도 승진·차기 시험까지 덱 유지
+Civil service exam (Grade 9 Korean, Korean history, English):
+- Korean history dates, figures, events: chunk-level cards (→ `chunking`). Per event: 3 cards for date, figure, background
+- English vocabulary: the 2,000–3,000 high-frequency civil-service words → spread over 6 months with SRS
+- Korean grammar: factual rules (phonological changes, etc.) are card-ifiable; reading comprehension should be handled separately via active recall
+- Retention caveat: maintain the deck even after the exam, through promotion tests and the next exam cycle
 
-공인중개사 1·2차:
-- 민법·공법·공시법 조문 번호·키워드는 SRS (클로즈형)
-- 판례는 *이해 먼저* → 이해 후 "요지 한 줄" 카드
-- 시험 3개월 전부터 일일 신규 20 / 복습 100 이상. 그 이전엔 덱 작게 유지.
+Licensed Real Estate Agent exam (Parts 1 & 2):
+- Civil code, public law, public-notice law — article numbers and keywords go into SRS (cloze format)
+- Case law: *understand first* → after understanding, make a "one-line gist" card
+- Starting 3 months before the exam: 20 new / 100+ reviews per day. Keep the deck small before then.
 
-**주의**: 덱을 *다운로드*하는 것보다 *직접 만드는 과정*이 학습. 기성 덱은 형식이 맞아도 본인 이해 구조와 어긋나 복습 비효율.
+**Note**: *Building cards yourself* is the learning; *downloading* a deck is not. Pre-made decks, even when formally correct, are inefficient for review because they don't align with your own comprehension structure.
 
-## 안티패턴
+## Anti-Patterns
 
-- **공부 = 카드 만들기** — 카드만 만들고 복습 안 하는 현상. 카드는 *도구*지 학습이 아님.
-- **이해 없이 카드화** — 암기 전에 이해가 와야 효율적. SRS는 *유지* 도구이지 *이해* 도구가 아님.
-- **너무 긴 카드** — 한 카드에 문단 전체. 인출 실패율 급증.
-- **"쉬움" 남발** — 힘들게 인출해야 S가 증가. 눌러버리면 간격만 늘고 실제론 안 외워짐.
-- **하루 몰아서** — SRS는 매일 리듬. 주말 몰아서 3시간은 대기열 꼬임 유발.
-- **모든 걸 SRS로** — 개념·관계·판단·절차적 스킬에 SRS 적용은 과. SRS는 사실·명시적 지식용.
+- **Studying = making cards** — the phenomenon of only creating cards but never reviewing. Cards are a *tool*, not the learning itself.
+- **Card-ifying without understanding** — understanding must come before memorization for efficiency. SRS is a *retention* tool, not an *understanding* tool.
+- **Cards that are too long** — an entire paragraph on one card. Retrieval failure rates spike.
+- **Overusing "Easy"** — S increases only when retrieval was difficult. Pressing it anyway only stretches the interval without actual memorization.
+- **Daily cramming** — SRS requires a daily rhythm. Cramming 3 hours on the weekend tangles the queue.
+- **Everything in SRS** — applying SRS to concepts, relationships, judgment, and procedural skills is overreach. SRS is for facts and explicit knowledge.
 
-## 한계
+## Limitations
 
-1. **의미 이해·추론 학습 못 함** — "왜"가 아니라 "무엇"만. 개념 학습은 다른 프레임워크 병행.
-2. **맥락 독립 지식 편향** — 카드는 맥락이 얇음. 시험에선 쓰지만 실전 적용엔 추가 훈련 필요.
-3. **동기 의존** — 매일 해야 한다는 제약. 3주 공백 생기면 복구 부담에 중단하는 사람 많음.
-4. **감정·스트레스 영향** — 수면 부족·불안 시 인출 실패율 증가. 컨디션이 곡선을 흔듦.
-5. **알고리즘 완벽하지 않음** — SM-2는 보수적. FSRS가 개선했지만 개인 편차 큼. 몇 달 데이터 쌓인 후에 조정.
-6. **언어 학습은 부분적** — 어휘·문법에 강, 회화·듣기·발음엔 약. 입출력 훈련이 필요.
+1. **Cannot teach semantic understanding or inference** — only "what," not "why." Combine with other frameworks for conceptual learning.
+2. **Bias toward context-independent knowledge** — cards carry thin context. They serve exams, but real-world application needs additional training.
+3. **Dependent on motivation** — the constraint of doing it every day. Many people, after a 3-week gap, quit because of the recovery burden.
+4. **Affected by emotion and stress** — sleep deprivation or anxiety increases retrieval failure rates. Condition shakes the curve.
+5. **Algorithms are not perfect** — SM-2 is conservative. FSRS improves on it, but individual variance is large. Adjust after several months of data accumulate.
+6. **Language learning is only partial** — strong for vocabulary and grammar, weak for conversation, listening, and pronunciation. Input/output training is required.
 
-## 이 프레임워크와 함께 쓰는 것들
+## Frameworks to Use Alongside
 
-- **active-recall** — SRS의 *엔진*. 매 카드가 인출 연습. 두 프레임워크는 사실상 한 몸.
-- **interleaving** — SRS는 자연스럽게 여러 주제 카드가 섞여 나옴. 블록 학습 대비 내장 강점.
-- **feynman-technique** — 카드에 못 쓸 만큼 이해가 얕으면 Feynman 먼저. 이해 후 카드화.
-- **zettelkasten** — Zettel 영구 노트의 핵심 주장을 카드로 추출 = 이해(Zettel) + 유지(SRS) 2층.
-- **chunking** — 의미 있는 청크로 카드 구성해야 부하 분산.
+- **active-recall** — the *engine* of SRS. Every card is a retrieval exercise. The two frameworks are practically one body.
+- **interleaving** — SRS naturally produces a mix of cards across topics. A built-in advantage over block learning.
+- **feynman-technique** — if your understanding is too shallow to commit to a card, do Feynman first. Card-ify after understanding.
+- **zettelkasten** — extracting the core claims of Zettel permanent notes into cards = a two-layer structure of understanding (Zettel) + retention (SRS).
+- **chunking** — cards must be composed of meaningful chunks to distribute load.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 개념·관계·추론 학습 → `feynman-technique` / `zettelkasten`
-- 절차적 스킬 → `deliberate-practice`
-- 시험 아닌 창조적 작업 → `zettelkasten` / `evergreen-notes`
-- 집중력·시간 확보가 근본 문제 → `deep-work` / `pomodoro-and-focus`
+- Conceptual, relational, or inferential learning → `feynman-technique` / `zettelkasten`
+- Procedural skills → `deliberate-practice`
+- Non-exam, creative work → `zettelkasten` / `evergreen-notes`
+- The root problem is focus or time availability → `deep-work` / `pomodoro-and-focus`
 
-## 추가 학습
+## Further Learning
 
-- Ebbinghaus, H. (1885). *Über das Gedächtnis.* (영역 *Memory*, 1913)
+- Ebbinghaus, H. (1885). *Über das Gedächtnis.* (English translation *Memory*, 1913)
 - Cepeda, N. J., Pashler, H., et al. (2006). "Distributed practice in verbal recall tasks: A review and quantitative synthesis." *Psychological Bulletin.*
 - Wozniak, P. "Twenty rules of formulating knowledge." supermemo.com
-- Nielsen, M. "Augmenting Long-term Memory." (2018, 에세이)
-- Anki manual + FSRS 문서
+- Nielsen, M. "Augmenting Long-term Memory." (2018, essay)
+- Anki manual + FSRS documentation

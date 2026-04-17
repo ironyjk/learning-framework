@@ -1,136 +1,136 @@
 ---
 name: zettelkasten
 version: "0.1.0"
-description: "Zettelkasten — Niklas Luhmann의 아토믹 노트·링크 기반 지식 시스템. fleeting/literature/permanent 노트 구분, 한 노트 = 한 아이디어, 연결이 내용보다 중요. 장기 지식 축적·글쓰기·연구자용."
+description: "Zettelkasten — Niklas Luhmann's atomic-note, link-based knowledge system. Distinguishes fleeting/literature/permanent notes, one note = one idea, connections matter more than content. For long-term knowledge accumulation, writing, and researchers."
 ---
 
 # Zettelkasten
 
-## 레이어 위치
+## Layer Position
 
-**L6 (포착·축적)** — evergreen-notes·second-brain-para와 같은 층. 장기 지식 네트워크. L3(이해)에서 소화된 개념을 연결·누적. 시험 준비·단기 학습엔 과적용.
+**L6 (Capture & Accumulation)** — Same layer as evergreen-notes and second-brain-para. A long-term knowledge network. Connects and accumulates concepts digested at L3 (Understanding). Overkill for exam prep or short-term learning.
 
-## 한 줄 요약
+## One-Line Summary
 
-**한 노트엔 한 아이디어만**. 노트 간 *연결*이 노트 자체보다 중요하다. 시간이 갈수록 네트워크가 스스로 사고를 만들어낸다.
+**One note contains only one idea.** The *connections* between notes matter more than the notes themselves. Over time, the network begins to generate thinking on its own.
 
-## 이론·실천 기원
+## Origins in Theory and Practice
 
-- **Niklas Luhmann (1927~1998)** — 독일 사회학자. 35년간 ~90,000장의 종이 카드로 개인 지식 시스템 운영. 70여 권 저서·400편 논문이 이 시스템에서 나왔다고 본인이 증언.
-- Luhmann 자신은 카드 상자를 "대화 상대(Gesprächspartner)"라고 표현. 시스템과 *교환*하며 글이 나온다고 설명.
-- **Sönke Ahrens (2017)** *How to Take Smart Notes* — 영어권에 체계화해 소개.
-- 인지심리적 근거: elaborative encoding(Craik & Lockhart 1972), generation effect — 자기 말로 다시 쓸 때 학습 강도 증가.
+- **Niklas Luhmann (1927~1998)** — German sociologist. Operated a personal knowledge system of ~90,000 paper cards over 35 years. He himself attested that his 70+ books and 400+ papers emerged from this system.
+- Luhmann described the card box itself as a "conversation partner (Gesprächspartner)." He explained that writing emerges through *exchange* with the system.
+- **Sönke Ahrens (2017)** *How to Take Smart Notes* — Introduced and systematized it for the English-speaking world.
+- Cognitive-psychology grounding: elaborative encoding (Craik & Lockhart 1972), generation effect — learning intensity increases when you rewrite things in your own words.
 
-## 핵심 개념
+## Core Concepts
 
-### 1. 세 종류 노트
-- **Fleeting notes (스치는 노트)**: 떠오르는 생각·메모. 1~2일 안에 처리하고 버림.
-- **Literature notes (문헌 노트)**: 읽은 책·논문의 요약 + 인용. *자기 말로* 다시 쓰는 게 핵심. 출처 함께.
-- **Permanent notes (영구 노트)**: 한 아이디어를 완결된 문장으로 쓴 것. 제목 = 주장. 다른 영구 노트와 링크.
+### 1. Three Kinds of Notes
+- **Fleeting notes**: Passing thoughts and memos. Processed and discarded within 1–2 days.
+- **Literature notes**: Summaries and quotes from books and papers you've read. The key is rewriting them *in your own words*. Always include the source.
+- **Permanent notes**: A single idea written out as a complete statement. Title = claim. Linked to other permanent notes.
 
-### 2. Atomicity (원자성)
-- 한 노트에 한 아이디어만. 여러 개 담으면 나중에 재결합 못 함.
-- 노트 제목이 *주장·명제*여야 함. "학습"이 아니라 "인출 연습은 재독보다 장기 기억을 강화한다".
+### 2. Atomicity
+- One idea per note. If you pack in multiple ideas, you can't recombine them later.
+- The note title should be a *claim or proposition*. Not "Learning" but "Retrieval practice strengthens long-term memory more than rereading."
 
 ### 3. Linking over tagging
-- 태그는 폴더의 다른 형태일 뿐. 연결이 핵심.
-- 노트를 쓸 때마다 "이건 어떤 노트와 연결되는가?" 묻기. 연결 이유를 *한 문장으로* 메모.
+- Tags are just another form of folders. Connections are the core.
+- Every time you write a note, ask: "Which note does this connect to?" Jot down the reason for the connection *in a single sentence*.
 
-### 4. Structure notes (구조 노트)
-- 여러 영구 노트를 묶는 "목차 노트". 나중에 주제 진입점이 됨.
-- Andy Matuschak의 MOC(map of content)와 유사.
+### 4. Structure notes
+- "Table-of-contents notes" that bundle multiple permanent notes. They become entry points to a topic later on.
+- Similar to Andy Matuschak's MOC (map of content).
 
 ### 5. Emergent structure
-- 위에서 분류체계를 *설계하지 않는다*. 연결이 쌓이며 저절로 주제군이 보이는 것을 기다림.
+- *Do not design* a taxonomy top-down. Wait for topic clusters to appear naturally as connections accumulate.
 
-## 언제 쓰나
+## When to Use
 
-- **장기 지식 축적** — 연구자·작가·컨설턴트·장기 학습자
-- **글쓰기가 잦은 사람** — 책·논문·장문 블로그·뉴스레터
-- **여러 분야 교차** — 서로 다른 주제 사이 연결이 아이디어의 원천일 때
-- **"읽은 게 남지 않는다"** 고민 — 처리 과정이 강제됨
+- **Long-term knowledge accumulation** — researchers, writers, consultants, lifelong learners
+- **People who write often** — books, papers, long-form blogs, newsletters
+- **Cross-disciplinary work** — when connections across different topics are the source of ideas
+- **The "what I read doesn't stick" struggle** — the processing pipeline becomes mandatory
 
-## 실전 적용
+## Practical Application
 
-### 최소 시작 단위
-1. 다음 읽는 책·논문에서 문헌 노트 3~5개 작성
-2. 그중 2개를 permanent note로 승격 — 제목을 *주장*으로 다시 씀
-3. 기존 permanent note 중 연결 후보 1개 찾아 링크 + 이유 한 문장
-4. 반복. 처음 3개월은 네트워크가 작아 쓸모없어 보임. 정상이다.
+### Minimum Starting Unit
+1. Write 3–5 literature notes from the next book or paper you read
+2. Promote 2 of them to permanent notes — rewrite the title as a *claim*
+3. Find 1 candidate among existing permanent notes to link to, plus a one-sentence reason
+4. Repeat. For the first 3 months the network is too small to feel useful. That's normal.
 
-### 원칙
-- 매일 쓰지 않아도 됨. 읽을 때마다 쓰는 습관이 핵심.
-- 완벽한 노트 금지. "내일의 내가 이해할 수 있는가"가 기준.
-- 출처 기록은 문헌 노트에만. 영구 노트는 *내 문장*.
+### Principles
+- You don't have to write every day. The habit of writing whenever you read is the key.
+- Forbid perfect notes. The bar is: "Can tomorrow-me understand this?"
+- Source citations only in literature notes. Permanent notes are *your own sentences*.
 
-### 도구
-- 시스템을 먼저, 도구는 나중. 종이 카드·Obsidian·Logseq·Roam·Zettlr 모두 가능.
-- 플레인 텍스트 + 마크다운 링크가 장수함 (도구 이민 용이).
+### Tools
+- System first, tools later. Paper cards, Obsidian, Logseq, Roam, Zettlr — all viable.
+- Plain text + markdown links have longevity (easy tool migration).
 
-## 한국 맥락 예시
+## Korean-Context Example
 
-논문 리뷰 중 Roediger & Karpicke (2006) "Test-enhanced learning" 읽음.
-- Literature note: "Roediger 2006 — 실험 피험자는 재독 그룹보다 테스트 그룹이 1주 뒤 50% 더 유지. 자기 평가는 반대."
-- Permanent note 1: "테스트는 학습 도구다, 평가 도구가 아니다." (본문에 내 말로, 링크: `active-recall`, `desirable-difficulty`)
-- Permanent note 2: "자기 평가는 실제 학습과 반비례하기 쉽다." (링크: `illusion-of-competence`)
+While reviewing papers, you read Roediger & Karpicke (2006) "Test-enhanced learning."
+- Literature note: "Roediger 2006 — After 1 week, the tested group retained 50% more than the reread group. Self-assessments went the opposite direction."
+- Permanent note 1: "Testing is a learning tool, not an assessment tool." (In the body, in your own words. Links: `active-recall`, `desirable-difficulty`)
+- Permanent note 2: "Self-assessment tends to be inversely correlated with actual learning." (Link: `illusion-of-competence`)
 
-### 크로스 도메인 MOC 활용
+### Using Cross-Domain MOCs
 
-학습 대상이 이미 개인 레포·도메인(부동산·건강·투자·자녀 교육)과 연결되면, 별도 Zettelkasten을 만들기 전에 *그 도메인 레포 자체가 MOC*가 될 수 있다:
+If your learning target is already connected to a personal repo or domain (real estate, health, investment, children's education), *the domain repo itself can be the MOC* before you bother building a separate Zettelkasten:
 
-- 부동산 갈아타기 공부 → 기존 `docs/부동산/` 안에 permanent note 추가. "전세가율은 매매가 대비 전세가 비율이며 역전 시 역전세 위험" 같은 개념이 *의사결정 기록과 같은 폴더*에 누적.
-- 건강 공부 → `docs/건강/`과 연결. 논문 한 편 읽고 개념 노트 1개 + 본인 지표(검진 결과)에 적용 기록 1개.
-- 이점: 학습 노트가 *실제 삶의 결정*과 연결되어 evergreen이 자연스러움. 별도 노트함은 재방문 빈도가 낮아 시들기 쉬움.
+- Studying how to switch apartments → add permanent notes inside your existing `docs/real-estate/`. Concepts like "The jeonse (전세) ratio is the jeonse-price-to-sale-price ratio, and when inverted it poses reverse-jeonse risk" accumulate *in the same folder as your decision logs*.
+- Studying health → connect to `docs/health/`. After reading a paper, add 1 concept note + 1 note applying it to your own metrics (checkup results).
+- Benefit: Learning notes connect to *actual life decisions*, which keeps them evergreen naturally. A separate note box is revisited less often and tends to wilt.
 
-**원리**: Young의 *Directness* + 도메인 맥락 = 유지율 증가. 학습 전용 Zettelkasten 구축 전에 "이미 있는 도메인 레포에 얹을 수 있는가"를 먼저 확인.
+**Principle**: Young's *Directness* + domain context = higher retention. Before building a dedicated learning Zettelkasten, first check: "Can I layer this onto an existing domain repo?"
 
-## 안티패턴 & 실패 지점
+## Anti-patterns & Failure Points
 
-- **수집만 하고 연결 안 함** — 가장 흔한 실패. 노트가 1000개여도 연결 없으면 쓰레기장.
-- **원본 복붙 위주 문헌 노트** — 자기 말로 바꾸는 과정이 학습. 복붙은 건너뛰기.
-- **완벽한 폴더 구조에 집착** — Luhmann 카드 상자는 번호만 있었다. 계층보다 연결.
-- **도구 전환 중독** — 시스템이 아니라 도구를 바꾸며 시간 소진.
-- **즉시 효과 기대** — 처음 6~12개월은 네트워크가 작아 쓸모 체감 안 됨.
+- **Collecting without connecting** — The most common failure. Even 1,000 notes without links are a junkyard.
+- **Copy-paste-dominant literature notes** — Rewriting in your own words *is* the learning. Copy-paste skips that.
+- **Obsessing over perfect folder structure** — Luhmann's card box only had numbers. Links over hierarchy.
+- **Tool-switching addiction** — Time burns away changing tools rather than the system.
+- **Expecting immediate effects** — For the first 6–12 months, the network is too small to feel useful.
 
-### 현실의 지속 실패 지점 (언제 포기하나)
+### Real-World Dropout Points (When People Quit)
 
-Zettelkasten 시작자 대부분이 멈추는 지점을 미리 알면 대응 가능:
+Knowing the points at which most Zettelkasten beginners stop lets you prepare:
 
-| 시점 | 증상 | 원인 | 대응 |
+| Timeframe | Symptom | Cause | Response |
 |---|---|---|---|
-| 1~2주 | "어디에 뭘 적어야 할지 모르겠다" | 템플릿·룰 과다 설계 | 제목 규칙 1개, 연결 규칙 1개로 축소 |
-| 1개월 | 노트 30개, 쓸모 체감 0 | 네트워크 크리티컬 매스 미달 | 정상. 3개월 유지 |
-| 3개월 | "그냥 일반 노트랑 다를 바 없네" | 연결을 *왜* 안 씀 | 연결마다 한 문장 *이유* 강제 |
-| 6개월 | 도구를 바꾸고 싶음 | 도구 피로 (실제론 습관 피로) | 바꾸지 말 것. 3개월만 더 |
-| 1년+ | 갑자기 쓸모 폭발 — 글 쓸 때 노트가 먼저 말함 | 네트워크 성숙 | 이때부터가 진짜 시작 |
+| 1–2 weeks | "I don't know where to write what" | Over-designed templates and rules | Reduce to 1 title rule and 1 linking rule |
+| 1 month | 30 notes, zero felt utility | Network below critical mass | Normal. Hold for 3 months |
+| 3 months | "This is no different from regular notes" | You're not writing *why* you link | Force a one-sentence *reason* on every link |
+| 6 months | Urge to switch tools | Tool fatigue (actually habit fatigue) | Do not switch. Just 3 more months |
+| 1 year+ | Sudden utility explosion — notes speak first when you write | Network maturity | This is when the real thing begins |
 
-**한국 학습자 특유 실패 패턴**: "Obsidian 플러그인 50개 깔고 테마 예쁘게 하느라 1주 소진, 노트는 10개" — 도구 세팅이 학습을 대체. 플러그인 없이 시작, 3개월 후 병목이 생기면 그때 추가.
+**Failure pattern specific to Korean learners**: "Installed 50 Obsidian plugins and spent a week beautifying the theme — ended up with 10 notes." Tool setup substitutes for learning. Start without plugins; only add them after 3 months when a real bottleneck appears.
 
-## 한계
+## Limitations
 
-1. **진입 비용 높음** — 시험 2주 전 쓰는 도구 아님. 장기 축적용.
-2. **사실 암기엔 부적합** — 용어·연도·공식은 Spaced Repetition이 효율적.
-3. **연결 과잉 위험** — 모든 것을 연결하려 하면 의미 희석. 연결에도 편집이 필요.
-4. **단독 주제·단기 프로젝트엔 과함** — 한 책 준비엔 일반 노트로 충분할 수 있음.
-5. **Luhmann 성과는 개인 사례** — 시스템이 만든 건지 Luhmann이 만든 건지 실증 분리 어려움.
+1. **High entry cost** — Not a tool to start 2 weeks before an exam. For long-term accumulation.
+2. **Unsuitable for fact memorization** — Terms, dates, and formulas are more efficient with Spaced Repetition.
+3. **Risk of over-linking** — Trying to connect everything dilutes meaning. Links also require editing.
+4. **Overkill for standalone topics and short-term projects** — For preparing a single book, regular notes may suffice.
+5. **Luhmann's results are a personal case** — Hard to empirically separate whether the system made him or he made the system.
 
-## 이 프레임워크와 함께 쓰는 것들
+## Frameworks That Pair Well With This One
 
-- **evergreen-notes** — Zettelkasten의 현대 디지털 해석. 철학 유사, 표현 다름.
-- **second-brain-para** — 프로젝트 맥락 레이어. PARA(프로젝트/영역/자원/아카이브)와 Zettel은 충돌 아님. PARA가 *작업 단위*, Zettel이 *지식 단위*.
-- **feynman-technique** — permanent note를 쓸 때 자동으로 Feynman 과정이 들어감.
-- **spaced-repetition** — 영구 노트의 핵심 주장을 Anki 카드로 뽑으면 2층 시스템.
+- **evergreen-notes** — The modern digital interpretation of Zettelkasten. Similar philosophy, different expression.
+- **second-brain-para** — A project-context layer. PARA (Projects/Areas/Resources/Archives) and Zettel don't conflict. PARA is the *unit of work*; Zettel is the *unit of knowledge*.
+- **feynman-technique** — Writing a permanent note automatically invokes the Feynman process.
+- **spaced-repetition** — Extracting the core claims of permanent notes into Anki cards gives you a 2-layer system.
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 단기 시험 준비 → `active-recall` + `spaced-repetition`
-- 정보 어디에 저장할지가 문제 → `second-brain-para`
-- 이해 자체가 약함 → `feynman-technique` 먼저
-- 집중력 부족이 근본 문제 → `deep-work` / `pomodoro-and-focus`
+- Short-term exam prep → `active-recall` + `spaced-repetition`
+- The problem is where to store information → `second-brain-para`
+- Understanding itself is weak → `feynman-technique` first
+- Lack of focus is the root problem → `deep-work` / `pomodoro-and-focus`
 
-## 추가 학습
+## Further Reading
 
 - Ahrens, S. (2017). *How to Take Smart Notes.*
-- Luhmann, N. (1992). "Kommunikation mit Zettelkästen." (원전 에세이, 영역본 있음)
-- Matuschak, A. "Evergreen notes." (온라인, 디지털 계승판)
-- Schmidt, J. (2018). "Niklas Luhmann's Card Index: The Fabrication of Serendipity." (학술)
+- Luhmann, N. (1992). "Kommunikation mit Zettelkästen." (The original essay; English translation available)
+- Matuschak, A. "Evergreen notes." (Online — digital successor edition)
+- Schmidt, J. (2018). "Niklas Luhmann's Card Index: The Fabrication of Serendipity." (Academic)

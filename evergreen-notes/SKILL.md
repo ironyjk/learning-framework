@@ -1,134 +1,134 @@
 ---
 name: evergreen-notes
 version: "0.1.0"
-description: "Evergreen Notes — Andy Matuschak의 디지털 노트 실천. 개념 지향·지속 편집·조밀 연결·원자성. Zettelkasten 디지털 계승판이자 연구 노트 이상. 노트는 일회용이 아니라 *돌아와 고치는 것*."
+description: "Evergreen Notes — Andy Matuschak's digital note-taking practice. Concept-oriented, continuously edited, densely linked, atomic. A digital successor to Zettelkasten and more than research notes. Notes are not disposable but *something you come back to and revise*."
 ---
 
 # Evergreen Notes
 
-## 레이어 위치
+## Layer Position
 
-**L6 (포착·축적)** — Zettelkasten의 디지털 현대화. 개념 지향·지속 편집. L3(이해)의 외재화된 결과물을 개인 사고 자산으로 누적.
+**L6 (capture·accumulation)** — Digital modernization of Zettelkasten. Concept-oriented, continuously edited. Accumulates the externalized results of L3 (understanding) as personal cognitive assets.
 
-## 한 줄 요약
+## One-Line Summary
 
-노트는 **개념 단위**로 쓰고, **시간이 갈수록 다듬고**, **서로 조밀하게 연결**한다. 한 번 쓰고 버리는 학습 노트와 반대 방향.
+Write notes in **concept units**, **refine them over time**, and **link them densely** to each other. The opposite direction from write-once-throw-away study notes.
 
-## 이론·실천 기원
+## Theoretical·Practical Origins
 
-- **Andy Matuschak** — 전 Khan Academy, Apple iOS 엔지니어. 연구자·인터랙션 디자이너. 공개 디지털 가든 notes.andymatuschak.org 운영.
-- Luhmann의 Zettelkasten 철학을 디지털 맥락에서 재해석. "개념 지향" 프레이밍이 독자적.
-- **Bret Victor**, **Michael Nielsen**과의 협업 — 도구가 사고를 바꾼다는 전통 (McLuhan·Engelbart 계보).
-- 실증 연구보단 *설계 원칙*. Matuschak 자신은 도구·매체 연구자라 실천 근거를 본인 일기 + 연구 프로그램으로 제시.
+- **Andy Matuschak** — Former Khan Academy, Apple iOS engineer. Researcher·interaction designer. Runs the public digital garden notes.andymatuschak.org.
+- Reinterprets Luhmann's Zettelkasten philosophy in a digital context. The "concept-oriented" framing is original.
+- **Collaborations with Bret Victor, Michael Nielsen** — The tradition that tools change thinking (McLuhan·Engelbart lineage).
+- Rather than empirical research, these are *design principles*. Matuschak himself is a tools·media researcher, so he presents the basis for practice through his own journals + research program.
 
-## 핵심 원칙
+## Core Principles
 
-### 1. Concept-oriented (개념 지향)
-- 노트 제목은 *한 개념·주장*. 저자명·책 제목이 아님.
-- 나쁨: "Ahrens 책 요약"
-- 좋음: "인출 연습은 재독보다 장기 유지를 강화한다"
-- 한 개념이 여러 출처에서 나오면 *한 노트에 누적*. 출처별로 노트 쪼개지 않음.
+### 1. Concept-oriented
+- The note title is *a single concept·claim*. Not an author name or book title.
+- Bad: "Summary of Ahrens's book"
+- Good: "Retrieval practice strengthens long-term retention more than rereading"
+- When a single concept emerges from multiple sources, *accumulate it in one note*. Don't split notes by source.
 
-### 2. Atomic (원자성)
-- 한 노트 = 한 아이디어. Zettelkasten과 동일.
-- 이유: 재조합. 작은 단위가 다른 맥락에서 재사용 가능.
+### 2. Atomic
+- One note = one idea. Same as Zettelkasten.
+- Reason: recombination. Small units can be reused in other contexts.
 
-### 3. Densely linked (조밀 연결)
-- 쓸 때마다 *최소 1~2개 기존 노트와 링크*. 링크 이유를 본문에.
-- 링크 없는 노트는 고아. 일정 기간 지나 여전히 고아면 재평가.
+### 3. Densely linked
+- Every time you write, *link to at least 1–2 existing notes*. Put the reason for the link in the body.
+- A note without links is an orphan. If it remains orphaned after some time, re-evaluate.
 
-### 4. Evergreen (지속 편집)
-- "완성"이 없음. 새 정보·반례가 나오면 돌아와 고침.
-- Git 은유: 노트는 *브랜치*가 아니라 *main*.
-- 날짜별 일기 노트와 구분되는 핵심.
+### 4. Evergreen (continuous editing)
+- There is no "completion." When new information·counterexamples appear, return and revise.
+- Git metaphor: notes are not *branches* but *main*.
+- The core that distinguishes them from date-based journal notes.
 
-### 5. Preferably personal (개인 사고 우선)
-- 자기 언어로 쓰기. 공유를 위한 포장은 나중.
-- "내가 내일 읽어도 이해되는가"가 완성 기준.
+### 5. Preferably personal
+- Write in your own words. Packaging for sharing comes later.
+- "Will I understand this when I read it tomorrow?" is the completion criterion.
 
 ### 6. Prefer associative ontologies to hierarchical
-- 계층 폴더 지양. 연관(링크·백링크) 네트워크 우선.
-- 필요 시 "Map of Content(MOC)" — 주제 진입점 노트.
+- Avoid hierarchical folders. Prioritize associative (link·backlink) networks.
+- When needed, use "Map of Content (MOC)" — entry-point notes for topics.
 
-## Zettelkasten과의 차이
+## Differences from Zettelkasten
 
 | | Zettelkasten (Luhmann) | Evergreen (Matuschak) |
 |---|---|---|
-| 출발점 | 아날로그 카드 | 디지털 네이티브 |
-| 노트 종류 | fleeting·literature·permanent 구분 | 그냥 evergreen (일원화) |
-| 제목 | 주장 중심 | 개념·주장 중심 |
-| 편집 | permanent 되면 고정에 가까움 | 지속 편집이 핵심 |
-| 출처 | 문헌 노트에 모음 | 각 개념 노트 말미 인용 |
+| Origin | Analog cards | Digital native |
+| Note types | Fleeting·literature·permanent distinctions | Just evergreen (unified) |
+| Title | Claim-centered | Concept·claim-centered |
+| Editing | Once permanent, close to fixed | Continuous editing is core |
+| Sources | Gathered in literature notes | Cited at the end of each concept note |
 
-실천 현장에선 두 전통이 섞임. 차이보단 상보적.
+In practice, the two traditions blend. More complementary than different.
 
-## 언제 쓰나
+## When to Use
 
-- 디지털 노트 도구에서 장기 사고 자산을 만들고 싶을 때
-- 개념 간 연결이 학습·연구의 핵심인 작업
-- 자기 아이디어를 *성장*시키려는 사람 (단순 저장 아님)
-- 가르치기·글쓰기·디자인처럼 *자기 사고 모델*이 자산인 직무
+- When you want to build long-term cognitive assets in a digital note tool
+- Work where connections between concepts are core to learning·research
+- People who want to *grow* their own ideas (not just store them)
+- Roles like teaching·writing·design where *your own thinking model* is the asset
 
-## 실전 적용
+## Practical Application
 
-### 시작 프로토콜
-1. 첫 노트 5개를 "내가 최근 배운 중요한 생각" 주제로 작성. 제목은 주장 문장.
-2. 각 노트 본문은 3~6문장. 자기 언어.
-3. 다섯 노트 중 서로 연결할 쌍 찾기. 링크 + 왜 연결되는지 한 줄.
-4. 다음 주부터 새로 읽는 것에서 개념 1개씩 추가. 기존 노트와 연결 시도.
-5. 월 1회 고아(링크 0개) 노트 점검. 삭제하거나 연결 추가.
+### Starting Protocol
+1. Write your first 5 notes on the topic "important thoughts I've recently learned." Titles as claim sentences.
+2. Each note body is 3–6 sentences. In your own words.
+3. Find pairs to link among the five notes. Link + one line on why they connect.
+4. From the following week, add one concept per new reading. Try connecting with existing notes.
+5. Once a month, check orphan notes (0 links). Delete or add connections.
 
-### 편집 습관
-- 읽다가 자기 노트와 충돌하는 주장 발견 → *원래 노트로 돌아가* 수정 또는 "이 주장은 X 조건에서만 성립"을 추가.
-- 같은 개념의 노트가 둘이면 합침. 분할은 쉽지만 합치는 것은 의식적으로.
+### Editing Habits
+- When you find a claim that conflicts with your own notes while reading → *return to the original note* and revise, or add "This claim only holds under condition X."
+- If there are two notes for the same concept, merge them. Splitting is easy, but merging must be conscious.
 
-### 제목 규칙
-- 명사구보다 문장. "청킹"보다 "전문가는 더 큰 청크로 지각한다".
-- 제목이 *주장*이면 나중에 찾기도 쉽고, 반례를 찾을 때도 쉬움.
+### Title Rules
+- Sentences over noun phrases. "Experts perceive in larger chunks" rather than "Chunking."
+- When a title is a *claim*, it's easier to find later and easier when searching for counterexamples.
 
-## 한국 맥락 예시
+## Korean Context Example
 
-학습 관련 노트를 쌓는 경우:
+When accumulating learning-related notes:
 
-- "인출이 저장보다 학습에 더 기여한다" (Roediger·Karpicke 2006 인용, 링크: `active-recall`, `spaced-repetition`)
-- "이해의 착각은 자기 평가와 실제 수행의 괴리다" (링크: `feynman-technique`, `active-recall`)
-- "바람직한 난이도: 쉬운 학습은 덜 학습된다" (Bjork 인용, 링크: `interleaving`, `spaced-repetition`)
+- "Retrieval contributes more to learning than storage" (cite Roediger·Karpicke 2006, links: `active-recall`, `spaced-repetition`)
+- "The illusion of understanding is the gap between self-assessment and actual performance" (links: `feynman-technique`, `active-recall`)
+- "Desirable difficulty: easy learning is learned less" (cite Bjork, links: `interleaving`, `spaced-repetition`)
 
-3개월 뒤 새 논문 읽다가 "인출 효과가 심한 스트레스 조건에선 약화된다"는 발견 → *첫 노트로 돌아가* "단서" 섹션 추가. 이것이 evergreen.
+Three months later, reading a new paper, you discover "the retrieval effect weakens under severe stress conditions" → *return to the first note* and add a "Conditions" section. This is evergreen.
 
-## 안티패턴
+## Anti-Patterns
 
-- **일기식 노트 누적** — 날짜로 파일 쌓기. 다시 안 봄. Evergreen과 반대.
-- **책 1권 = 노트 1개 요약** — 개념 지향 원칙 위반. 책을 *부품*으로 해체해야 함.
-- **완벽한 첫 버전 집착** — "evergreen"은 돌아와 고침을 전제. 첫 버전은 거침.
-- **링크 남발** — 모든 노트를 서로 연결하면 신호 희석. 링크는 *왜*가 있어야.
-- **공개용 포장이 내용을 오염** — 디지털 가든으로 공개하다 보면 자기 사고 대신 보여주기식 문장. Matuschak 본인도 경계.
+- **Journal-style note accumulation** — Piling up files by date. Never looked at again. Opposite of Evergreen.
+- **One book = one note summary** — Violates the concept-oriented principle. The book must be *disassembled* into parts.
+- **Obsession with a perfect first version** — "Evergreen" presupposes coming back to revise. The first version is rough.
+- **Link overuse** — Linking all notes to each other dilutes the signal. Links must have *why*.
+- **Content contaminated by packaging for publication** — Making it a public digital garden leads to show-off sentences instead of your own thinking. Matuschak himself warns against this.
 
-## 한계
+## Limitations
 
-1. **근거는 설계·일화 기반** — 통제 실험 없음. Luhmann식 개인 사례 증거.
-2. **진입 비용 + 지속 비용** — 돌아와 편집하는 습관이 안 붙으면 일반 노트와 다를 바 없음.
-3. **단기 학습엔 과함** — 시험 2주 준비엔 비효율. 장기 지식 자산 만드는 사람용.
-4. **도구 의존** — 백링크·그래프 뷰 없는 도구에선 효과 반감. 다만 도구 종류(Obsidian·Roam·Logseq)는 중요하지 않음.
-5. **공개 가든은 별도 작업** — 개인 evergreen과 공개 가든은 목적이 다르다는 것을 Matuschak도 지적.
+1. **Evidence is design·anecdote-based** — No controlled experiments. Luhmann-style personal case evidence.
+2. **Entry cost + sustained cost** — If the habit of coming back to edit doesn't take root, it's no different from ordinary notes.
+3. **Overkill for short-term learning** — Inefficient for 2-week exam prep. For people building long-term knowledge assets.
+4. **Tool-dependent** — Effect is halved in tools without backlinks·graph view. That said, the type of tool (Obsidian·Roam·Logseq) doesn't matter.
+5. **Public garden is separate work** — Matuschak also points out that personal evergreen and public gardens have different purposes.
 
-## 이 프레임워크와 함께 쓰는 것들
+## Frameworks to Use Alongside This
 
-- **zettelkasten** — 철학 유사, 용어 약간 다름. 함께 읽으면 서로 보완.
-- **second-brain-para** — PARA가 *작업 조직*, Evergreen이 *개념 노트 원칙*. 두 층 병행 가능.
-- **feynman-technique** — Evergreen 노트 쓸 때 자기 언어 원칙이 Feynman과 일치.
-- **spaced-repetition** — Matuschak은 SRS와 Evergreen을 결합하는 실험(Orbit, Mnemonic Medium)을 진행함.
+- **zettelkasten** — Similar philosophy, slightly different terminology. Reading together complements both.
+- **second-brain-para** — PARA is *work organization*, Evergreen is *concept note principles*. The two layers can run in parallel.
+- **feynman-technique** — The own-words principle when writing Evergreen notes aligns with Feynman.
+- **spaced-repetition** — Matuschak has conducted experiments combining SRS with Evergreen (Orbit, Mnemonic Medium).
 
-## 이 프레임워크가 *틀렸을 때*
+## When This Framework Is *Wrong*
 
-- 파일·프로젝트 조직이 문제 → `second-brain-para`
-- 사실 암기·시험 → `spaced-repetition` / `active-recall`
-- 스킬 훈련 → `deliberate-practice`
-- 개념 이해 자체가 부족 → `feynman-technique` 먼저
+- File·project organization is the problem → `second-brain-para`
+- Fact memorization·exams → `spaced-repetition` / `active-recall`
+- Skill training → `deliberate-practice`
+- Lack of concept understanding itself → `feynman-technique` first
 
-## 추가 학습
+## Further Learning
 
 - Matuschak, A. "Evergreen notes." notes.andymatuschak.org
 - Matuschak, A. & Nielsen, M. "How can we develop transformative tools for thought?" (2019)
-- Nielsen, M. "Augmenting Long-term Memory." (SRS와 evergreen의 결합 논의)
-- Ahrens, S. (2017). *How to Take Smart Notes.* (자매 프레임워크 Zettelkasten)
+- Nielsen, M. "Augmenting Long-term Memory." (Discussion combining SRS and evergreen)
+- Ahrens, S. (2017). *How to Take Smart Notes.* (Sister framework Zettelkasten)
