@@ -62,3 +62,7 @@ learning-framework/
 ## 면책
 
 이 레포는 학습 설계 보조 도구다. 공인 시험·자격증 준비·임상 영역(의대·법대 등)은 별도 전략이 필요할 수 있다.
+
+## 라이선스
+
+CC-BY-NC-4.0 — 상세 내용은 [LICENSE](LICENSE) 참고. 상업 라이선스 문의: ironyjk@gmail.com
