@@ -39,6 +39,8 @@ learning-framework/
 
 메타 라우터가 목적(시험/스킬/지식 축적)과 제약(시간·도구)을 분류하고, 관련 프레임워크 1~3개를 선택해 Skill 툴로 실행·합성.
 
+> 💡 **짧은 이름**: [래퍼 설정](https://github.com/ironyjk/claude-frameworks-marketplace#짧은-이름으로-쓰기-optional) 후 `/learn`으로 호출 가능
+
 ## 범위 바깥
 
 - 아동·청소년 교육 (→ `parenting`, `udl`, `pbl` 등)
