@@ -1,0 +1,27 @@
+{
+  "name": "learning-framework",
+  "description": "Adult learning & knowledge management meta-router — 12 cognitive science-based frameworks (Zettelkasten, Second Brain/PARA, Evergreen Notes, Spaced Repetition, Active Recall, Feynman Technique, Interleaving, Deliberate Practice, Chunking, Deep Work, Pomodoro, Metalearning). Based on Ebbinghaus, Roediger, Karpicke, Bjork, Ericsson research. Korean learner context (SAT, civil service, CPA, 회독). Invoke /learn.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Choi Hee Chul",
+    "email": "ironyjk@gmail.com"
+  },
+  "homepage": "https://github.com/ironyjk/learning-framework",
+  "repository": "https://github.com/ironyjk/learning-framework",
+  "license": "CC-BY-NC-4.0",
+  "keywords": ["learning", "knowledge-management", "zettelkasten", "spaced-repetition", "feynman", "korean"],
+  "skills": [
+    "./active-recall",
+    "./chunking",
+    "./deep-work",
+    "./deliberate-practice",
+    "./evergreen-notes",
+    "./feynman-technique",
+    "./interleaving",
+    "./metalearning",
+    "./pomodoro-and-focus",
+    "./second-brain-para",
+    "./spaced-repetition",
+    "./zettelkasten"
+  ]
+}
