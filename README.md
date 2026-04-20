@@ -63,6 +63,18 @@ This repo focuses on adults learning independently, accumulating knowledge, and 
 
 This repo is a learning-design support tool. Licensing exams, professional certifications, and clinical domains (medicine, law, etc.) may require additional strategies beyond what is covered here.
 
+## Attribution & Trademarks
+
+This project implements evidence-based learning frameworks for educational purposes. The following trademarks are acknowledged:
+
+- **Pomodoro Technique®** is a registered trademark of Francesco Cirillo (cirillocompany.de).
+- **Building a Second Brain™** and **PARA** are trademarks of Tiago Forte / Forte Labs.
+- **Ultralearning** is a methodology by Scott H. Young.
+
+All other framework names reference published academic works and are used descriptively.
+
+This project is not affiliated with, endorsed by, or sponsored by any of the above trademark holders.
+
 ## License
 
 CC-BY-NC-4.0 — see [LICENSE](LICENSE) for details. Commercial licensing: ironyjk@gmail.com
