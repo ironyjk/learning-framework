@@ -4,7 +4,7 @@ version: "0.2.0"
 last_verified: "2026-04-17"
 valid_until: "2026-10-17"
 description: "Adult learning & knowledge management meta-router — auto-selects from 12 cognitive-science / educational-psychology frameworks (Zettelkasten, Spaced Repetition, Active Recall, Deliberate Practice, Deep Work, etc.). Covers exam prep, certifications, new-field acquisition, knowledge accumulation, expertise growth, and focus retraining. Korean learner context (CSAT / civil service / certifications / 회독 / 오답노트) built-in."
-tools: ["Read", "Write", "Edit", "Skill"]
+tools: ["Read", "Write", "Edit", "Skill", "Bash", "Agent"]
 dependencies:
   - zettelkasten
   - second-brain-para
@@ -322,3 +322,11 @@ Representative combinations of purpose × learner situation × constraint. The m
 - **Learning must be uncomfortable** — Bjork's *desirable difficulty*. Easy learning (highlight / reread / summary consumption) is typically less effective. Subjective and results are inverse (Kornell & Bjork 2008).
 - **Self-directed ≠ alone** — coach / study group / AI / online lectures are supporting resources for self-directed learning. Feedback channels are the #1 plateau-breaker.
 - **It's not the technique, it's the foundation** — sleep / anxiety / depression / ADHD come before learning techniques. Professional first (→ `counsel`).
+
+## Execution Strategy
+
+When a framework requires deeper analysis (e.g., learning project design, study schedule optimization, technique selection):
+
+1. **Use Bash** for calculations — Python one-liners for SRS card estimates, study hour allocation, spaced repetition interval planning
+2. **Use Agent** for parallel framework analysis — dispatch sub-analyses when combining L2+L4+L5 layer frameworks
+3. **Read sub-skill references** — each sub-skill has `references/foundation.md` with theory; load only when the user needs theoretical depth

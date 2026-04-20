@@ -1,79 +1,18 @@
 ---
 name: deep-work
-version: "0.1.0"
+version: "0.2.0"
 description: "Deep Work — Cal Newport. Distinguishing shallow work from deep work, attention as a muscle, and the four disciplines (monastic/bimodal/rhythmic/journalistic). A framework for designing focused time blocks for knowledge workers."
 ---
 
 # Deep Work
 
+> Background and theory: Read references/foundation.md
+
+
+
 ## Layer Position
 
 **L2 (Environment · Time)** — Same layer as pomodoro-and-focus. The *container* in which all learning from L3–L6 occurs. When L2 is broken, upper layers are meaningless. For beginners or those in states of attentional collapse, train with pomodoro first, then move on to deep work.
-
-## One-Line Summary
-
-**Distinguish between cognitively demanding work (deep work) and routine processing (shallow work), and structure *protected time blocks* for deep work.** Attention is a muscle; it develops only through training.
-
-## Theory · Background
-
-- **Cal Newport** — Georgetown Computer Science professor. Combines academic research with popular writing. *Deep Work* (2016), *A World Without Email* (2021), *Slow Productivity* (2024).
-- Not Newport's original theory, but a synthesis of the following:
-  - **Flow** (Csikszentmihalyi 1990) — Research on the state of absorption.
-  - **Deliberate Practice** (Ericsson) — Highly focused practice.
-  - **Attention residue** (Sophie Leroy 2009) — Residual attention when switching tasks.
-  - **Erik Brynjolfsson et al.'s knowledge economy analysis** — Why focus is an economic asset.
-- Empirical standing: Newport is closer to a theorist-essayist, and his books themselves are case- and narrative-driven. The underlying research is solid, but "Deep Work" itself is an integrative framework.
-
-## Core Distinction
-
-### Deep Work
-- Cognitively demanding tasks
-- Performed near one's limit under distraction-free conditions
-- Creates value · builds new skills
-- Not easily replicable
-- Examples: complex code design · papers · analysis · writing · learning
-
-### Shallow Work
-- Low cognitive load
-- Can be performed amid distractions
-- Low value and easily replicable
-- Examples: email replies · routine meetings · status updates · message checking
-
-**The Problem**: Most knowledge workers are overwhelmed by shallow work, leaving deep work time near zero. Newport suggests tracking: "What % of today's work is deep?"
-
-## The Four Disciplines (Philosophies)
-
-Newport distinguishes four modes of integrating deep work into daily life:
-
-### 1. Monastic
-- Nearly total isolation from outside contact; extended periods devoted solely to deep work.
-- Example: Donald Knuth — hasn't used email since 1990. Devotes himself exclusively to writing *The Art of Computer Programming*.
-- Applicable to: a small number of independent researchers and writers. Unrealistic for most.
-
-### 2. Bimodal
-- Certain blocks of the week or month are fully devoted to focus; shallow work is permitted in the rest.
-- Example: Carl Jung isolated himself in his writing tower for days or weeks at a time, spending the remainder with patients and family.
-- Applies to: project-based workers, professors, consultants.
-
-### 3. Rhythmic
-- Deep work in a fixed daily time slot (e.g., 6–9 AM).
-- "Jerry Seinfeld chain" — mark X's on the calendar, never break the streak.
-- The most common and realistic mode. Fits regular office workers.
-
-### 4. Journalistic
-- When schedules are unpredictable, drop into deep work *the moment an opening appears*.
-- Walter Isaacson reportedly continued writing even during 30-minute gaps while traveling.
-- Highly difficult. Only viable for those whose attention-switching skills are already trained.
-
-For most people, **Rhythmic** is the starting point. Bimodal suits project-intensive periods. Monastic and Journalistic are exceptions.
-
-## Related Concept: Attention Residue
-
-- **Sophie Leroy (2009)** "Why is it so hard to do my work?" *Organizational Behavior and Human Decision Processes.*
-- When switching from task A to task B, cognitive residue from A interferes with performance on B.
-- Residue is especially large when A was broken off *incomplete*.
-- Implication: checking messengers every 10 minutes fragments actual deep work time.
-- **(→ see `pomodoro-and-focus`)**
 
 ## Practical Rules (Newport's Proposals)
 
@@ -173,3 +112,4 @@ Challenges and responses for implementing deep work in Korean workplace and lear
 - Leroy, S. (2009). "Why is it so hard to do my work? The challenge of attention residue when switching between work tasks." *OBHDP.*
 - Csikszentmihalyi, M. (1990). *Flow.*
 - Ward, A. F. et al. (2017). "Brain Drain: The Mere Presence of One's Own Smartphone Reduces Available Cognitive Capacity." *JACR.*
+
